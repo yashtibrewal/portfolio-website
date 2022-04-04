@@ -116,3 +116,9 @@
 #education{
   background-color: bisque;
 }
+
+.certificate{
+  width: 100%;
+  margin-top: 0;
+  padding-top: 0;
+}

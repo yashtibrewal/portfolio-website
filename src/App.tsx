@@ -9,6 +9,7 @@ import Greet from './components/Greetings';
 import ProfesionalCertificates from './components/Professional/ProfessionalCertificates';
 import Education from './components/Education';
 import Footer from './components/Footer';
+import GoogleCertifications from './components/Certification/GoogleCertifications';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <ProfesionalCertificates></ProfesionalCertificates>
       <AptitudeTests></AptitudeTests>
       <Education></Education>
+      <GoogleCertifications></GoogleCertifications>
       <Footer></Footer>
     </div>
   );

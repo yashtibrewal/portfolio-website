@@ -1,6 +1,6 @@
 import Card from '@mui/material/Card'
 import CardMedia from '@mui/material/CardMedia'
-import {Box, CardContent, Typography, List, ListItem, ListItemText} from '@mui/material'
+import { Box, CardContent, Typography, List, ListItem, ListItemText } from '@mui/material'
 
 export default function Education() {
     return (
@@ -9,14 +9,14 @@ export default function Education() {
             <Card id="education" sx={{ display: 'flex' }}>
                 <CardMedia
                     component="img"
-                    sx={{ width: 600 }}
+                    sx={{ width: 700 }}
                     image="/Degree.jpg"
                     alt="Image failed to load"
                 />
                 <Box sx={{ display: 'flex', flexDirection: 'column' }}>
                     <CardContent sx={{ flex: '1 0 auto' }}>
                         <Typography component="div" variant="h5">
-                            Bachelors in Information Technology (B.E.)
+                            Courses
                         </Typography>
                         <Typography variant="subtitle1" color="text.secondary" component="div">
                             <List>
@@ -146,6 +146,7 @@ export default function Education() {
                     </CardContent>
                 </Box>
             </Card>
+            <h3 className='logo'>Presently pursuing Masters in Computer Science from <a href='https://www.ufl.edu/'>University of Florida.</a></h3>
         </div>
     )
 }

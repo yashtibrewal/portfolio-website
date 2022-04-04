@@ -67,7 +67,7 @@ function CompetitionCertificates() {
                                 Deep Blue by <Link href="https://www.mastek.com/">Mastek</Link>
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                A 3 month long hackathon conducted by Mastek to solve real work problems. I gained a lot of M.L. exposure here.
+                                To solve real work problems. I gained a lot of M.L. exposure.
                             </Typography>
                         </CardContent>
                         <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="Competition" />

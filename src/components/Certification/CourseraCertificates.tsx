@@ -62,7 +62,7 @@ function CourseraCertificates() {
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
-                                Using Python to access the Web Data
+                                Using Python to access the Web
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
                                 This course is offered by University of Michigan. It invloves web crawling assignemnts and exams.

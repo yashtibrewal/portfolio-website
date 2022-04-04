@@ -1,4 +1,3 @@
-import Grid from '@mui/material/Grid'
 import Link from '@mui/material/Link';
 
 function NavigationBar() {
@@ -6,8 +5,8 @@ function NavigationBar() {
         <div id="navigationBar">
             <Link className="list-item" href="#aboutMe">About Me</Link>
             <Link className="list-item" href="#certificates">Certificates</Link>
-            <Link className="list-item" href="#apptitudeTests">Apptitude Tests</Link>
-            <Link className="list-item" href="#projects">Project</Link>
+            <Link className="list-item" href="#professionalCertificates">Work</Link>
+            <Link className="list-item" href="#aptitudeTests">Apitutude Tests</Link>
         </div>
     );
 }

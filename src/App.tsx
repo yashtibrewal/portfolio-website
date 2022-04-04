@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 import AptitudeTests from './components/ApptitudeTests'
 import AboutMe from './components/AboutMe';
 import Greet from './components/Greetings';
+import ProfesionalCertificates from './components/Professional/ProfessionalCertificates';
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
       <LandingPage></LandingPage>
       <AboutMe></AboutMe>
       <Certificates></Certificates>
+      <ProfesionalCertificates></ProfesionalCertificates>
       <AptitudeTests></AptitudeTests>
-      <Projects></Projects>
     </div>
   );
 }

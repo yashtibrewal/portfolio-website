@@ -7,11 +7,9 @@ import ContactMe from './ContactMe';
 function AboutMe() {
     return (
         <div id="aboutMe" >
-            <Grid container item xs={12} >
-                <h1 className='logo'>About Me</h1>
-            </Grid>
+            <h1 className='logo'>About Me</h1>
             <Grid container>
-                <Grid item  xs={6}>
+                <Grid item xs={6}>
                     <Card className="item m-5" sx={{ minWidth: 300 }}>
                         <CardContent>
                             <Typography variant="h5" component="div">

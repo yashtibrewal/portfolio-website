@@ -4,11 +4,12 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Chip from '@mui/material/Chip'
+import Link from '@mui/material/Link'
 
 function CourseraCertificates() {
     return (
         <div id="courseraCert">
-            <h2 className="logo">Coursera Courses</h2>
+            <h2 className="logo"><Link href='https://www.coursera.org/user/b66ffe392694af9fbba1a4b58a8c948b'>Coursera Profile</Link></h2>
             <Grid container xs={12}>
                 <Grid item xs={4}>
                     <Card className="card">

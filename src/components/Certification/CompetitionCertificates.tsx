@@ -4,6 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Chip from '@mui/material/Chip'
+import Link from '@mui/material/Link'
 
 function CompetitionCertificates() {
     return (
@@ -20,7 +21,7 @@ function CompetitionCertificates() {
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
-                                Codeshastra Hackathon
+                                Codeshastra Hackathon by <Link href='https://www.djsce.ac.in/'>DJSCE</Link>
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
                                 The hackathon was an open topic. I worked in a team of 2.
@@ -45,7 +46,7 @@ function CompetitionCertificates() {
                                 Hack n Code Hackathon
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                This hackathon was conducted by I.E.T (Institution of Engineering and Technology).
+                                This hackathon was conducted by <Link href="https://www.theiet.org/">I.E.T</Link>
                             </Typography>
                         </CardContent>
                         <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="Competition" />
@@ -63,7 +64,7 @@ function CompetitionCertificates() {
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
-                                Deep Blue
+                                Deep Blue by <Link href="https://www.mastek.com/">Mastek</Link>
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
                                 A 3 month long hackathon conducted by Mastek to solve real work problems. I gained a lot of M.L. exposure here.

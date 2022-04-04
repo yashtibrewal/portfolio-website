@@ -4,11 +4,12 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Chip from '@mui/material/Chip'
+import Link from '@mui/material/Link'
 
 function HackerRankCertificates() {
     return (
         <div id="hackerCert">
-            <h2 className="logo">HackerRank</h2>
+            <h2 className="logo"><Link href='https://www.hackerrank.com/yashtibrewal?hr_r=1'>HackerRank   Profile</Link></h2>
             <Grid container xs={12}>
                 <Grid item xs={4}>
                     <Card className="card">

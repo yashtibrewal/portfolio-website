@@ -8,6 +8,7 @@ import Chip from '@mui/material/Chip'
 function CourseraCertificates() {
     return (
         <div id="courseraCert">
+            <h2 className="logo">Coursera Courses</h2>
             <Grid container xs={12}>
                 <Grid item xs={4}>
                     <Card className="card">

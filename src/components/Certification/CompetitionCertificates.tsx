@@ -8,6 +8,7 @@ import Chip from '@mui/material/Chip'
 function CompetitionCertificates() {
     return (
         <div id="compCert">
+            <h2 className="logo">Hackathons</h2>
             <Grid container xs={12}>
                 <Grid item xs={4}>
                     <Card className="card">

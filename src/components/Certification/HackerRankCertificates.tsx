@@ -8,6 +8,7 @@ import Chip from '@mui/material/Chip'
 function HackerRankCertificates() {
     return (
         <div id="hackerCert">
+            <h2 className="logo">HackerRank</h2>
             <Grid container xs={12}>
                 <Grid item xs={4}>
                     <Card className="card">

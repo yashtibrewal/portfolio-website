@@ -8,6 +8,7 @@ import Chip from '@mui/material/Chip'
 function ProfesionalCertificates() {
     return (
         <div>
+            <h1 className="logo">Professional Work Acknowledgements</h1>
             <Grid container xs={12}>
                 <Grid item xs={4}>
                     <Card className="card">

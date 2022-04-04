@@ -10,6 +10,7 @@ function SkillCertifications() {
 
     return (
         <div id="skillCert">
+            <h2 className="logo">Skills Certifications</h2>
             <Grid container xs={12}>
                 <Grid item xs={4}>
                     <Card className="card">

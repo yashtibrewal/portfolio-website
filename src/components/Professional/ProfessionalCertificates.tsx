@@ -71,8 +71,9 @@ function ProfesionalCertificates() {
                                 Developed a demo website. Worked on stock data analysis for insights as supervised by Dr. Mahendra Mehta.
                             </Typography>
                         </CardContent>
-                        <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="Skill" />
-                        <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="HackerRank" />
+                        <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="Stocks" />
+                        <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="Python" />
+                        <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="Web Development" />
                     </Card>
                 </Grid>
             </Grid>

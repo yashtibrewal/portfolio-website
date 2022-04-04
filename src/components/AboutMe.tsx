@@ -1,9 +1,7 @@
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-import Grid from '@mui/material/Grid'
-import ContactMe from './ContactMe';
-
+import Grid from '@mui/material/Grid';
 function AboutMe() {
     return (
         <div id="aboutMe" >
@@ -55,7 +53,6 @@ function AboutMe() {
                                 Based on my past experiences I would love to work in the Machine Learning or Full Stack Development or a Software Development Role in future and am actively looking for internships in the United States for Summer 2022.
                             </Typography>
                         </CardContent>
-                        <ContactMe></ContactMe>
                     </Card>
                 </Grid>
             </Grid>

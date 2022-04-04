@@ -122,3 +122,31 @@
   margin-top: 0;
   padding-top: 0;
 }
+
+#contactMe{
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+
+.pm{
+  padding:0.25rem;
+  margin:0.25rem;
+}
+
+.pb{
+  padding-bottom: 1px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: white;
+}
+
+.footerIcon{
+  padding: 0;
+  margin: 0;
+}

@@ -22,7 +22,7 @@ function AptitudeTests() {
                                 <Typography variant="subtitle1" color="text.secondary" component="div">
                                     AWA 3.5
 
-                                    Quants 162
+                                    Quants 166
 
                                     Verbal 144
                                 </Typography>

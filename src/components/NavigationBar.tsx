@@ -1,4 +1,3 @@
-import Link from '@mui/material/Link';
 
 function NavigationBar() {
     return (
@@ -8,6 +7,7 @@ function NavigationBar() {
             <a className="list-item" href="#professionalCertificates">Work</a>
             <a className="list-item" href="#aptitudeTests">Apitutude Tests</a>
             <a className="list-item" href="#education">Education</a>
+            <a className="list-item" href="#googleCertificates">Google Certificates</a>
         </div>
     );
 }

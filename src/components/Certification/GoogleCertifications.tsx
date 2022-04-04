@@ -2,7 +2,7 @@ import Grid from '@mui/material/Grid'
 
 export default function GoogleCertifications() {
     return (
-        <div id="googleCertifications">
+        <div id="googleCertificates">
             <h1 className='logo'>Google Competitions</h1>
             <Grid container xs={12}>
                 <Grid item xs={6}>

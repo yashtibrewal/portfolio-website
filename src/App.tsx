@@ -7,6 +7,8 @@ import AptitudeTests from './components/ApptitudeTests'
 import AboutMe from './components/AboutMe';
 import Greet from './components/Greetings';
 import ProfesionalCertificates from './components/Professional/ProfessionalCertificates';
+import Education from './components/Education';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Certificates></Certificates>
       <ProfesionalCertificates></ProfesionalCertificates>
       <AptitudeTests></AptitudeTests>
+      <Education></Education>
+      <Footer></Footer>
     </div>
   );
 }

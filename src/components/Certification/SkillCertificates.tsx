@@ -12,7 +12,7 @@ function SkillCertifications() {
         <div id="skillCert">
             <h2 className="logo">Skills Certifications</h2>
             <Grid container>
-                <Grid item xs={12} sm={12} md={6}>
+                <Grid item xs={12} sm={6} md={4}>
                     <Card className="card">
                         <CardMedia
                             component="img"
@@ -33,7 +33,7 @@ function SkillCertifications() {
                         <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="Professional" />
                     </Card>
                 </Grid>
-                <Grid item xs={12} sm={12} md={6}>
+                <Grid item xs={12} sm={6} md={4}>
                     <Card className="card">
                         <CardMedia
                             component="img"
@@ -54,7 +54,7 @@ function SkillCertifications() {
                         <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="Professional" />
                     </Card>
                 </Grid>
-                <Grid item xs={12} sm={12} md={6}>
+                <Grid item xs={12} sm={6} md={4}>
                     <Card  className="card">
                         <CardMedia
                             component="img"
@@ -75,9 +75,6 @@ function SkillCertifications() {
                         <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="Udemy" />
                     </Card>
                 </Grid>
-                <Grid item xs={12} sm={12} md={6}></Grid>
-                <Grid item xs={12} sm={12} md={6}></Grid>
-                <Grid item xs={12} sm={12} md={6}></Grid>
             </Grid>
 
         </div>

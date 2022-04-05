@@ -8,7 +8,7 @@ function AboutMe() {
             <h1 className='logo'>About Me</h1>
             <Grid container>
                 <Grid item xs={12} sm={12} md={6}>
-                    <Card className="item m-5" sx={{ minWidth: 300 }}>
+                    <Card className="m-5" sx={{ minWidth: 300 }}>
                         <CardContent>
                             <Typography variant="h5" component="div">
                                 Quick Learner
@@ -20,7 +20,7 @@ function AboutMe() {
                     </Card>
                 </Grid>
                 <Grid item xs={12} sm={12} md={6}>
-                    <Card className="item m-5" sx={{ minWidth: 300 }}>
+                    <Card className="m-5" sx={{ minWidth: 300 }}>
                         <CardContent>
                             <Typography variant="h5" component="div">
                                 Full Stack Development

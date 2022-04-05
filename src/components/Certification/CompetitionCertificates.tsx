@@ -11,7 +11,7 @@ function CompetitionCertificates() {
         <div id="compCert">
             <h2 className="logo">Hackathons</h2>
             <Grid container>
-                <Grid item xs={12} sm={12} md={6}>
+                <Grid item xs={12} sm={6} md={4}>
                     <Card className="card">
                         <CardMedia
                             component="img"
@@ -33,7 +33,7 @@ function CompetitionCertificates() {
 
                     </Card>
                 </Grid>
-                <Grid item xs={12} sm={12} md={6}>
+                <Grid item xs={12} sm={6} md={4}>
                     <Card className="card">
                         <CardMedia
                             component="img"
@@ -54,7 +54,7 @@ function CompetitionCertificates() {
                         <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="One Day" />
                     </Card>
                 </Grid>
-                <Grid item xs={12} sm={12} md={6}>
+                <Grid item xs={12} sm={6} md={4}>
                     <Card className="card">
                         <CardMedia
                             component="img"

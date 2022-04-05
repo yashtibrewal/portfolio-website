@@ -6,7 +6,7 @@ function AboutMe() {
     return (
         <div id="aboutMe" >
             <h1 className='logo'>About Me</h1>
-            <Grid container xs={12}>
+            <Grid container>
                 <Grid item xs={12} sm={12} md={6}>
                     <Card className="item m-5" sx={{ minWidth: 300 }}>
                         <CardContent>

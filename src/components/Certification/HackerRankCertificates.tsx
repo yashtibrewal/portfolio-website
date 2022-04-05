@@ -10,7 +10,7 @@ function HackerRankCertificates() {
     return (
         <div id="hackerCert">
             <h2 className="logo"><Link href='https://www.hackerrank.com/yashtibrewal?hr_r=1'>HackerRank   Profile</Link></h2>
-            <Grid container xs={12}>
+            <Grid container>
                 <Grid item xs={12} sm={12} md={6}>
                     <Card className="card">
                         <CardMedia

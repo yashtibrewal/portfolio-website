@@ -11,7 +11,7 @@ function SkillCertifications() {
     return (
         <div id="skillCert">
             <h2 className="logo">Skills Certifications</h2>
-            <Grid container xs={12}>
+            <Grid container>
                 <Grid item xs={12} sm={12} md={6}>
                     <Card className="card">
                         <CardMedia

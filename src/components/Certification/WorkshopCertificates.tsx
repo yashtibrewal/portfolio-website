@@ -11,7 +11,7 @@ export default function WorkshopCertificates() {
     return (
         <div id="workshopCertificates">
             <h1 className="logo">Workshops</h1>
-            <Grid container xs={12}>
+            <Grid container>
                 <Grid item >
                     <Card className="card">
                         <CardMedia

@@ -8,7 +8,7 @@ import Grid from '@mui/material/Grid';
 function ContactMe() {
     return (
         <div id="contactMe">
-            <Grid container xs={12} >
+            <Grid container>
                 <Grid item >
                     <PermPhoneMsgIcon className='pm'></PermPhoneMsgIcon><span className='pm'> +91 88790 34882</span>
                 </Grid>

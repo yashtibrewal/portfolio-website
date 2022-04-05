@@ -10,7 +10,7 @@ function ProfesionalCertificates() {
     return (
         <div id="professionalCertificates">
             <h1 className="logo">Professional Acknowledgements</h1>
-            <Grid container xs={12}>
+            <Grid container>
                 <Grid item xs={12} sm={12} md={6}>
                     <Card className="card">
                         <CardMedia
@@ -79,7 +79,7 @@ function ProfesionalCertificates() {
             </Grid>
             <div id="profP2">
                 
-            <Grid container xs={12}>
+            <Grid container>
                 <Grid item xs={12} sm={12} md={6}>
                     <Card className="card">
                         <CardMedia

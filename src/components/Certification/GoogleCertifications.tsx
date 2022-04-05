@@ -4,7 +4,7 @@ export default function GoogleCertifications() {
     return (
         <div id="googleCertificates">
             <h1 className='logo'>Google Competitions</h1>
-            <Grid container xs={12}>
+            <Grid container>
                 <Grid item xs={12} sm={12} md={6}>
                     <img
                         className='certificate'
@@ -20,7 +20,7 @@ export default function GoogleCertifications() {
                     />
                 </Grid>
             </Grid>
-            <Grid container xs={12}>
+            <Grid container>
                 <Grid item xs={12} sm={12} md={4}>
                     <img
                         className='certificate'

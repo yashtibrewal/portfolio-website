@@ -8,7 +8,7 @@ export default function Education() {
             <h3 className='note'>Presently pursuing Masters in Computer Science from <a href='https://www.ufl.edu/'>University of Florida.</a></h3>
 
             <h1 className="logo">Education 3.23/4</h1>
-            <Grid container xs={12}>
+            <Grid container>
                 <Grid item xs={12}>
                     <Card>
                         <CardMedia

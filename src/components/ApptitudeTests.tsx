@@ -10,7 +10,7 @@ function AptitudeTests() {
         <div id="aptitudeTests">
             <h1 className='logo'>Aptitude Tests</h1>
             <Grid container>
-                <Grid xs={12} sm={12} md={4} className='aptitutdeTestItems' item >
+                <Grid xs={12} sm={6} md={4} className='aptitutdeTestItems' item >
                     <Card>
                         <CardMedia
                             component="img"
@@ -24,7 +24,7 @@ function AptitudeTests() {
 
                     </Card>
                 </Grid>
-                <Grid xs={12} className='aptitutdeTestItems' item >
+                <Grid xs={12} sm={6} md={4} className='aptitutdeTestItems' item >
                     <Card>
                         <CardMedia
                             className='aptitudeItem'
@@ -39,7 +39,7 @@ function AptitudeTests() {
 
                     </Card>
                 </Grid>
-                <Grid xs={12} sm={12} md={4} className='aptitutdeTestItems' item >
+                <Grid xs={12} sm={6} md={4} className='aptitutdeTestItems' item >
                     <Card>
                         <CardMedia
                             component="img"
@@ -53,7 +53,7 @@ function AptitudeTests() {
 
                     </Card>
                 </Grid>
-                <Grid xs={12} sm={12} md={4} className='aptitutdeTestItems' item >
+                <Grid xs={12} sm={6} md={4} className='aptitutdeTestItems' item >
                     <Card>
                         <CardMedia
                             component="img"
@@ -67,7 +67,7 @@ function AptitudeTests() {
 
                     </Card>
                 </Grid>
-                <Grid xs={12} sm={12} md={4} className='aptitutdeTestItems' item >
+                <Grid xs={12} sm={6} md={4} className='aptitutdeTestItems' item >
                     <Card >
                         <CardMedia
                             component="img"
@@ -80,7 +80,7 @@ function AptitudeTests() {
                         </CardContent>
                     </Card>
                 </Grid>
-                <Grid xs={12} sm={12} md={4} className='aptitutdeTestItems' item >
+                <Grid xs={12} sm={6} md={4} className='aptitutdeTestItems' item >
                     <Card>
                         <CardMedia
                             component="img"
@@ -93,7 +93,7 @@ function AptitudeTests() {
                         </CardContent>
                     </Card>
                 </Grid>
-                <Grid xs={12} sm={12} md={4} className='aptitutdeTestItems' item >
+                <Grid xs={12} sm={6} md={4} className='aptitutdeTestItems' item >
                     <Card>
                         <CardMedia
                             component="img"

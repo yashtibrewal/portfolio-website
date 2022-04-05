@@ -133,6 +133,8 @@
 .pm{
   padding:0.25rem;
   margin:0.25rem;
+  padding: 1;
+  padding-top:0;
 }
 
 .pb{

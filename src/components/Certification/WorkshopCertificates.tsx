@@ -11,8 +11,8 @@ export default function WorkshopCertificates() {
     return (
         <div id="workshopCertificates">
             <h1 className="logo">Workshops</h1>
-            <Grid container xs={12}>
-                <Grid item xs={3}>
+            <Grid container>
+                <Grid item >
                     <Card className="card">
                         <CardMedia
                             component="img"
@@ -32,7 +32,7 @@ export default function WorkshopCertificates() {
                         <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="Industry Connect" />
                     </Card>
                 </Grid>
-                <Grid item xs={3}>
+                <Grid item xs={12} sm={12} md={6}>
                     <Card className="card">
                         <CardMedia
                             component="img"
@@ -52,7 +52,7 @@ export default function WorkshopCertificates() {
                         <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="Android" />
                     </Card>
                 </Grid>
-                <Grid item xs={3}>
+                <Grid item xs={12} sm={12} md={6}>
                     <Card className="card">
                         <CardMedia
                             component="img"
@@ -72,7 +72,7 @@ export default function WorkshopCertificates() {
                         <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="Python" />
                     </Card>
                 </Grid>
-                <Grid item xs={3}>
+                <Grid item xs={12} sm={12} md={6}>
                     <Card className="card">
                         <CardMedia
                             component="img"

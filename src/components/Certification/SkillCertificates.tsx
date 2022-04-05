@@ -11,8 +11,8 @@ function SkillCertifications() {
     return (
         <div id="skillCert">
             <h2 className="logo">Skills Certifications</h2>
-            <Grid container xs={12}>
-                <Grid item xs={4}>
+            <Grid container>
+                <Grid item xs={12} sm={12} md={6}>
                     <Card className="card">
                         <CardMedia
                             component="img"
@@ -25,7 +25,7 @@ function SkillCertifications() {
                                 Oracle Certification
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.
+                                I was introduced to Java during my high school wanted to do more than just knowing it.
                             </Typography>
                         </CardContent>
                         
@@ -33,7 +33,7 @@ function SkillCertifications() {
                         <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="Professional" />
                     </Card>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={12} sm={12} md={6}>
                     <Card className="card">
                         <CardMedia
                             component="img"
@@ -46,7 +46,7 @@ function SkillCertifications() {
                                 SAS Certification
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                SAS is a statistical software suite developed by SAS Institute for data management, advanced analytics, multivariate analysis, business intelligence, criminal investigation, and predictive analytics.
+                                Programming in Analytics including generating reports in SAS. I wanted to push the limits beyond the coursework.
                             </Typography>
                         </CardContent>
                         
@@ -54,7 +54,7 @@ function SkillCertifications() {
                         <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="Professional" />
                     </Card>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={12} sm={12} md={6}>
                     <Card  className="card">
                         <CardMedia
                             component="img"
@@ -67,7 +67,7 @@ function SkillCertifications() {
                                 JavaScript Certification
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.
+                                I felt unsure about my JavaScript skills. This certificate boosted my confidence.
                             </Typography>
                         </CardContent>
                         
@@ -75,9 +75,9 @@ function SkillCertifications() {
                         <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="Udemy" />
                     </Card>
                 </Grid>
-                <Grid item xs={4}></Grid>
-                <Grid item xs={4}></Grid>
-                <Grid item xs={4}></Grid>
+                <Grid item xs={12} sm={12} md={6}></Grid>
+                <Grid item xs={12} sm={12} md={6}></Grid>
+                <Grid item xs={12} sm={12} md={6}></Grid>
             </Grid>
 
         </div>

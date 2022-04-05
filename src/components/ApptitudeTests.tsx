@@ -1,6 +1,4 @@
 
-import { useTheme } from '@mui/material/styles';
-import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -10,156 +8,102 @@ import Grid from '@mui/material/Grid';
 function AptitudeTests() {
     return (
         <div id="aptitudeTests">
-            <h1 className='logo'>Aptitute Tests</h1>
-            <Grid container xs={12}>
-                <Grid className='aptitutdeTestItems' item xs={3}>
-                    <Card sx={{ display: 'flex' }}>
-                        <Box sx={{ display: 'flex', flexDirection: 'column' }}>
-                            <CardContent sx={{ flex: '1 0 auto' }}>
-                                <Typography component="div" variant="h5">
-                                    GRE
-                                </Typography>
-                                <Typography variant="subtitle1" color="text.secondary" component="div">
-                                    AWA 3.5
-
-                                    Quants 166
-
-                                    Verbal 144
-                                </Typography>
-                            </CardContent>
-                        </Box>
+            <h1 className='logo'>Aptitude Tests</h1>
+            <Grid container>
+                <Grid xs={12} sm={6} md={4} className='aptitutdeTestItems' item >
+                    <Card>
                         <CardMedia
                             component="img"
-                            sx={{ width: 151 }}
+                            sx={{ width: 300 }}
                             image="gre.webp"
                             alt="Logo could not be loaded"
                         />
-                    </Card>
-                </Grid>
-                <Grid className='aptitutdeTestItems' item xs={3}>
-                    <Card sx={{ display: 'flex' }}>
-                        <Box sx={{ display: 'flex', flexDirection: 'column' }}>
-                            <CardContent sx={{ flex: '1 0 auto' }}>
-                                <Typography component="div" variant="h5">
-                                    TOEFL
-                                </Typography>
-                                <Typography variant="subtitle1" color="text.secondary" component="div">
-                                    R:21
+                        <CardContent className="fs2rem">
+                            310
+                        </CardContent>
 
-                                    L:27
-                                    <br/>
-                                    S:24
+                    </Card>
+                </Grid>
+                <Grid xs={12} sm={6} md={4} className='aptitutdeTestItems' item >
+                    <Card>
+                        <CardMedia
+                            className='aptitudeItem'
+                            component="img"
+                            image="/apptitude/TOEFL.webp"
+                            sx={{ width: 300 }}
+                            alt="Logo could not be loaded"
+                        />
+                        <CardContent className='fs2rem'>
+                            95
+                        </CardContent>
 
-                                    W:23
-                                </Typography>
-                            </CardContent>
-                        </Box>
-                        <CardMedia
-                            component="img"
-                            image="/toefl.webp"
-                            sx={{ width: 151 }}
-                            alt="Logo could not be loaded"
-                        />
                     </Card>
                 </Grid>
-                <Grid className='aptitutdeTestItems' item xs={3}>
-                    <Card sx={{ display: 'flex' }}>
-                        <Box sx={{ display: 'flex', flexDirection: 'column' }}>
-                            <CardContent sx={{ flex: '1 0 auto' }}>
-                                <Typography component="div" variant="h5">
-                                    CAT
-                                </Typography>
-                                <Typography variant="subtitle1" color="text.secondary" component="div">
-                                    Percentile 74.14
-                                </Typography>
-                            </CardContent>
-                        </Box>
+                <Grid xs={12} sm={6} md={4} className='aptitutdeTestItems' item >
+                    <Card>
                         <CardMedia
                             component="img"
-                            sx={{ width: 151 }}
-                            image="https://digitallearning.eletsonline.com/wp-content/uploads/2019/01/CAT-2018-1000x600.webp"
+                            sx={{ width: 300 }}
+                            image="/apptitude/CAT-2018-1000x600.webp"
                             alt="Logo could not be loaded"
                         />
+                        <CardContent className="fs2rem">
+                            Percentile 74.14
+                        </CardContent>
+
                     </Card>
                 </Grid>
-                <Grid className='aptitutdeTestItems' item xs={3}>
-                    <Card sx={{ display: 'flex' }}>
-                        <Box sx={{ display: 'flex', flexDirection: 'column' }}>
-                            <CardContent sx={{ flex: '1 0 auto' }}>
-                                <Typography component="div" variant="h5">
-                                    XAT
-                                </Typography>
-                                <Typography variant="subtitle1" color="text.secondary" component="div">
-                                    Percentile 59.102
-                                </Typography>
-                            </CardContent>
-                        </Box>
+                <Grid xs={12} sm={6} md={4} className='aptitutdeTestItems' item >
+                    <Card>
                         <CardMedia
                             component="img"
-                            sx={{ width: 151 }}
-                            image="https://www.careerindia.com/img/2015/01/12-1421046089-xlri.webp"
+                            sx={{ width: 300 }}
+                            image="/apptitude/XAT.webp"
                             alt="Logo could not be loaded"
                         />
+                        <CardContent className="fs2rem">
+                            Percentile 59.102
+                        </CardContent>
+
                     </Card>
                 </Grid>
-                <Grid className='aptitutdeTestItems' item xs={6}>
-                    <Card sx={{ display: 'flex' }}>
-                        <Box sx={{ display: 'flex', flexDirection: 'column' }}>
-                            <CardContent sx={{ flex: '1 0 auto' }}>
-                                <Typography component="div" variant="h5">
-                                    SDA Bocconi
-                                </Typography>
-                                <Typography variant="subtitle1" color="text.secondary" component="div">
-                                    Accepted with 40% Scholarship
-                                </Typography>
-                            </CardContent>
-                        </Box>
+                <Grid xs={12} sm={6} md={4} className='aptitutdeTestItems' item >
+                    <Card >
                         <CardMedia
                             component="img"
-                            sx={{ width: 350 }}
-                            image="https://assets.impactpool.org/logos/sda-bocconi-school-of-management-f767e790-86c2-42c6-868b-4db14579bf10.svg"
+                            sx={{ width: 300 }}
+                            image="/apptitude/SDA.webp"
                             alt="Logo could not be loaded"
                         />
+                        <CardContent className="fs2rem">
+                            40% Scholarship
+                        </CardContent>
                     </Card>
                 </Grid>
-                <Grid className='aptitutdeTestItems' item xs={3}>
-                    <Card sx={{ display: 'flex' }}>
-                        <Box sx={{ display: 'flex', flexDirection: 'column' }}>
-                            <CardContent sx={{ flex: '1 0 auto' }}>
-                                <Typography component="div" variant="h5">
-                                    NMAT
-                                </Typography>
-                                <Typography variant="subtitle1" color="text.secondary" component="div">
-                                    Scaled Score 189
-                                </Typography>
-                            </CardContent>
-                        </Box>
+                <Grid xs={12} sm={6} md={4} className='aptitutdeTestItems' item >
+                    <Card>
                         <CardMedia
                             component="img"
-                            sx={{ width: 150 }}
-                            image="https://design.nmims.edu/images/nmims-logo.png"
+                            sx={{ width: 300 }}
+                            image="/apptitude/MukeshPatelSchoolLogo.webp"
                             alt="Logo could not be loaded"
                         />
+                        <CardContent className="fs2rem">
+                            Scaled Score 189
+                        </CardContent>
                     </Card>
                 </Grid>
-                <Grid className='aptitutdeTestItems' item xs={3}>
-                    <Card sx={{ display: 'flex' }}>
-                        <Box sx={{ display: 'flex', flexDirection: 'column' }}>
-                            <CardContent sx={{ flex: '1 0 auto' }}>
-                                <Typography component="div" variant="h5">
-                                    SNAP
-                                </Typography>
-                                <Typography variant="subtitle1" color="text.secondary" component="div">
-                                    Percentile 54.1548
-                                </Typography>
-                            </CardContent>
-                        </Box>
+                <Grid xs={12} sm={6} md={4} className='aptitutdeTestItems' item >
+                    <Card>
                         <CardMedia
                             component="img"
-                            sx={{ width: 150 }}
-                            image="https://www.examsplanner.in/media/snap-exam.webp"
+                            sx={{ width: 300 }}
+                            image="/apptitude/snap.webp"
                             alt="Logo could not be loaded"
                         />
+                        <CardContent className="fs2rem">
+                            Percentile 54.1548
+                        </CardContent>
                     </Card>
                 </Grid>
             </Grid>

@@ -1,3 +1,4 @@
+import Grid from '@mui/material/Grid'
 
 function NavigationBar() {
     return (
@@ -10,6 +11,7 @@ function NavigationBar() {
             <a className="list-item" href="#googleCertificates">Google Certificates</a>
             <a className="list-item" href="#workshopCertificates">Workshop Certificates</a>
         </div>
+
     );
 }
 

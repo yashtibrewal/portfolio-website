@@ -11,7 +11,7 @@ function CompetitionCertificates() {
         <div id="compCert">
             <h2 className="logo">Hackathons</h2>
             <Grid container xs={12}>
-                <Grid item xs={4}>
+                <Grid item xs={12} sm={12} md={6}>
                     <Card className="card">
                         <CardMedia
                             component="img"
@@ -24,7 +24,7 @@ function CompetitionCertificates() {
                                 Codeshastra Hackathon by <Link href='https://www.djsce.ac.in/'>DJSCE</Link>
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                The hackathon was an open topic. I worked in a team of 2.
+                                The hackathon was an open topic. I worked in a team of 2. Partner Aniketh Nair.
                             </Typography>
                         </CardContent>
                         <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="Competition" />
@@ -33,7 +33,7 @@ function CompetitionCertificates() {
 
                     </Card>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={12} sm={12} md={6}>
                     <Card className="card">
                         <CardMedia
                             component="img"
@@ -54,7 +54,7 @@ function CompetitionCertificates() {
                         <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="One Day" />
                     </Card>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={12} sm={12} md={6}>
                     <Card className="card">
                         <CardMedia
                             component="img"
@@ -67,7 +67,7 @@ function CompetitionCertificates() {
                                 Deep Blue by <Link href="https://www.mastek.com/">Mastek</Link>
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                To solve real work problems. I gained a lot of M.L. exposure.
+                                TSolved real work problem. Team of 4: Devwrat Tanwar, Jhanvi Shah, Animesh Yadav.
                             </Typography>
                         </CardContent>
                         <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="Competition" />

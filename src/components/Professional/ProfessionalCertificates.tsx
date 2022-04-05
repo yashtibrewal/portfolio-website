@@ -11,7 +11,7 @@ function ProfesionalCertificates() {
         <div id="professionalCertificates">
             <h1 className="logo">Professional Acknowledgements</h1>
             <Grid container xs={12}>
-                <Grid item xs={4}>
+                <Grid item xs={12} sm={12} md={6}>
                     <Card className="card">
                         <CardMedia
                             component="img"
@@ -31,7 +31,7 @@ function ProfesionalCertificates() {
                         <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="Java" />
                     </Card>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={12} sm={12} md={6}>
                     <Card className="card">
                         <CardMedia
                             component="img"
@@ -55,7 +55,7 @@ function ProfesionalCertificates() {
                         <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="GMail" />
                     </Card>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={12} sm={12} md={6}>
                     <Card className="card">
                         <CardMedia
                             component="img"
@@ -80,7 +80,7 @@ function ProfesionalCertificates() {
             <div id="profP2">
                 
             <Grid container xs={12}>
-                <Grid item xs={4}>
+                <Grid item xs={12} sm={12} md={6}>
                     <Card className="card">
                         <CardMedia
                             component="img"
@@ -100,7 +100,7 @@ function ProfesionalCertificates() {
                         <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="MongoDB" />
                     </Card>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={12} sm={12} md={6}>
                     <Card className="card">
                         <CardMedia
                             component="img"
@@ -121,7 +121,7 @@ function ProfesionalCertificates() {
                         <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="MongoDB" />
                     </Card>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={12} sm={12} md={6}>
                     <Card className="card">
                         <CardMedia
                             component="img"

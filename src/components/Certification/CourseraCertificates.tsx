@@ -11,7 +11,7 @@ function CourseraCertificates() {
         <div id="courseraCert">
             <h2 className="logo"><Link href='https://www.coursera.org/user/b66ffe392694af9fbba1a4b58a8c948b'>Coursera Profile</Link></h2>
             <Grid container xs={12}>
-                <Grid item xs={4}>
+                <Grid item xs={12} sm={12} md={6}>
                     <Card className="card">
                         <CardMedia
                             component="img"
@@ -32,7 +32,7 @@ function CourseraCertificates() {
 
                     </Card>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={12} sm={12} md={6}>
                     <Card className="card">
                         <CardMedia
                             component="img"
@@ -52,7 +52,7 @@ function CourseraCertificates() {
                         <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="Coursera" />
                     </Card>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={12} sm={12} md={6}>
                     <Card className="card">
                         <CardMedia
                             component="img"

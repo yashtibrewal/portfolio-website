@@ -6,8 +6,8 @@ function AboutMe() {
     return (
         <div id="aboutMe" >
             <h1 className='logo'>About Me</h1>
-            <Grid container>
-                <Grid item xs={6}>
+            <Grid container xs={12}>
+                <Grid item xs={12} sm={12} md={6}>
                     <Card className="item m-5" sx={{ minWidth: 300 }}>
                         <CardContent>
                             <Typography variant="h5" component="div">
@@ -19,7 +19,7 @@ function AboutMe() {
                         </CardContent>
                     </Card>
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item xs={12} sm={12} md={6}>
                     <Card className="item m-5" sx={{ minWidth: 300 }}>
                         <CardContent>
                             <Typography variant="h5" component="div">
@@ -31,7 +31,7 @@ function AboutMe() {
                         </CardContent>
                     </Card>
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item xs={12} sm={12} md={6}>
                     <Card className="m-5" sx={{ minWidth: 300 }}>
                         <CardContent>
                             <Typography variant="h5" component="div">
@@ -43,7 +43,7 @@ function AboutMe() {
                         </CardContent>
                     </Card>
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item xs={12} sm={12} md={6}>
                     <Card className="m-5" sx={{ minWidth: 300 }}>
                         <CardContent>
                             <Typography variant="h5" component="div">

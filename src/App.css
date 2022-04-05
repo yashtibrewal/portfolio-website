@@ -162,3 +162,9 @@ a:hover{
   padding: 1rem;
   margin: 1rem;
 }
+
+.fs2rem{
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+}

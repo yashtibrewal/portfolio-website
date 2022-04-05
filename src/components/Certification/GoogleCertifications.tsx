@@ -5,14 +5,14 @@ export default function GoogleCertifications() {
         <div id="googleCertificates">
             <h1 className='logo'>Google Competitions</h1>
             <Grid container xs={12}>
-                <Grid item xs={6}>
+                <Grid item xs={12} sm={12} md={6}>
                     <img
                         className='certificate'
                         src="/Certificates/Google/Code Jam 2022_page-0001.webp"
                         alt="Image could not be loaded"
                     />
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item xs={12} sm={12} md={6}>
                     <img
                         className='certificate'
                         src="/Certificates/Google/Code Jam 2021_page-0001.webp"
@@ -21,21 +21,21 @@ export default function GoogleCertifications() {
                 </Grid>
             </Grid>
             <Grid container xs={12}>
-                <Grid item xs={4}>
+                <Grid item xs={12} sm={12} md={4}>
                     <img
                         className='certificate'
                         src="/Certificates/Google/KickStart 2019_page-0001.webp"
                         alt="Image could not be loaded"
                     />
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={12} sm={12} md={4}>
                     <img
                         className='certificate'
                         src="/Certificates/Google/KickStart 2020_page-0001.webp"
                         alt="Image could not be loaded"
                     />
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={12} sm={12} md={4}>
                     <img
                         className='certificate'
                         src="/Certificates/Google/KickStart 2021_page-0001.webp"

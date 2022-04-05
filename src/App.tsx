@@ -10,6 +10,7 @@ import ProfesionalCertificates from './components/Professional/ProfessionalCerti
 import Education from './components/Education';
 import Footer from './components/Footer';
 import GoogleCertifications from './components/Certification/GoogleCertifications';
+import WorkshopCertificates from './components/Certification/WorkshopCertificates';
 
 function App() {
   return (
@@ -18,11 +19,12 @@ function App() {
       <Greet></Greet>
       <LandingPage></LandingPage>
       <AboutMe></AboutMe>
-      <Certificates></Certificates>
-      <ProfesionalCertificates></ProfesionalCertificates>
+      <GoogleCertifications></GoogleCertifications>
       <AptitudeTests></AptitudeTests>
       <Education></Education>
-      <GoogleCertifications></GoogleCertifications>
+      <ProfesionalCertificates></ProfesionalCertificates>
+      <Certificates></Certificates>
+      <WorkshopCertificates></WorkshopCertificates>
       <Footer></Footer>
     </div>
   );

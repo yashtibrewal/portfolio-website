@@ -16,7 +16,7 @@ function CompetitionCertificates() {
                         <CardMedia
                             component="img"
                             height="100%"
-                            image="/Certificates/Competition Certificates/Codeshastra DJ_page-0001.jpg"
+                            image="/Certificates/Competition Certificates/Codeshastra DJ_page-0001.webp"
                             alt="Image could not be loaded"
                         />
                         <CardContent>
@@ -38,7 +38,7 @@ function CompetitionCertificates() {
                         <CardMedia
                             component="img"
                             height="100%"
-                            image="/Certificates/Competition Certificates/Hack n code IET Hackathon_page-0001.jpg"
+                            image="/Certificates/Competition Certificates/Hack n code IET Hackathon_page-0001.webp"
                             alt="Image could not be loaded"
                         />
                         <CardContent>
@@ -59,7 +59,7 @@ function CompetitionCertificates() {
                         <CardMedia
                             component="img"
                             height="100%"
-                            image="/Certificates/Competition Certificates/ML Deep Blue Mastek_page-0001.jpg"
+                            image="/Certificates/Competition Certificates/ML Deep Blue Mastek_page-0001.webp"
                             alt="Image could not be loaded"
                         />
                         <CardContent>

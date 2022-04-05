@@ -8,6 +8,7 @@ function NavigationBar() {
             <a className="list-item" href="#aptitudeTests">Apitutude Tests</a>
             <a className="list-item" href="#education">Education</a>
             <a className="list-item" href="#googleCertificates">Google Certificates</a>
+            <a className="list-item" href="#workshopCertificates">Workshop Certificates</a>
         </div>
     );
 }

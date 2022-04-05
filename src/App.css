@@ -24,12 +24,12 @@
   padding: 0.5rem 1.5rem;
   text-decoration: none ;
   color: black ;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .list-item:hover{
   text-decoration: underline ;
-  color:rgb(255, 255, 255) ;
+  color:blue;
 }
 .aptitutdeTestItems{
   padding: 2rem 2rem;
@@ -100,7 +100,7 @@
   position: absolute;
   z-index: 1;
   color:rgb(0, 0, 0);
-  font-size: 5rem;
+  font-size: 3rem;
   font-style: italic;
   margin: auto;
   padding: 1rem;
@@ -113,8 +113,9 @@
   background-color: aliceblue;
 }
 
-#education{
+.education-bg{
   background-color: bisque;
+  margin: 1rem;
 }
 
 .certificate{
@@ -149,4 +150,15 @@ a:hover{
 .footerIcon{
   padding: 0;
   margin: 0;
+}
+
+.degree{
+  padding: 1rem;
+  background-color: bisque;
+  margin: 1rem;
+}
+
+.note{
+  padding: 1rem;
+  margin: 1rem;
 }

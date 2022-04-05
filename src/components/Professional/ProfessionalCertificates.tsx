@@ -16,7 +16,7 @@ function ProfesionalCertificates() {
                         <CardMedia
                             component="img"
                             height="100%"
-                            image="/Certificates/Professional Certificates/Copy of IIFL Internship Certificate_page-0001.jpg"
+                            image="/Certificates/Professional Certificates/Copy of IIFL Internship Certificate_page-0001.webp"
                             alt="Image could not be loaded"
                         />
                         <CardContent>
@@ -36,7 +36,7 @@ function ProfesionalCertificates() {
                         <CardMedia
                             component="img"
                             height="100%"
-                            image="/Certificates/Professional Certificates/Empeetex Internship Certificate_page-0001.jpg"
+                            image="/Certificates/Professional Certificates/Empeetex Internship Certificate_page-0001.webp"
                             alt="Image could not be loaded"
                         />
                         <CardContent>
@@ -60,7 +60,7 @@ function ProfesionalCertificates() {
                         <CardMedia
                             component="img"
                             height="100%"
-                            image="/Certificates/Professional Certificates/NueralTechSoft Internship Certificate_page-0001.jpg"
+                            image="/Certificates/Professional Certificates/NueralTechSoft Internship Certificate_page-0001.webp"
                             alt="Image could not be loaded"
                         />
                         <CardContent>
@@ -85,7 +85,7 @@ function ProfesionalCertificates() {
                         <CardMedia
                             component="img"
                             height="100%"
-                            image="/Certificates/Professional Certificates/Freelance Letter Yash Tibrewal_page-0001.jpg"
+                            image="/Certificates/Professional Certificates/Freelance Letter Yash Tibrewal_page-0001.webp"
                             alt="Image could not be loaded"
                         />
                         <CardContent>
@@ -105,7 +105,7 @@ function ProfesionalCertificates() {
                         <CardMedia
                             component="img"
                             height="100%"
-                            image="/Certificates/Professional Certificates/Internship Letter Stylabs_page-0001.jpg"
+                            image="/Certificates/Professional Certificates/Internship Letter Stylabs_page-0001.webp"
                             alt="Image could not be loaded"
                         />
                         <CardContent>
@@ -126,7 +126,7 @@ function ProfesionalCertificates() {
                         <CardMedia
                             component="img"
                             height="100%"
-                            image="/Certificates/Professional Certificates/Experience Letter of Yash Tibrewal_page-0001.jpg"
+                            image="/Certificates/Professional Certificates/Experience Letter of Yash Tibrewal_page-0001.webp"
                             alt="Image could not be loaded"
                         />
                         <CardContent>

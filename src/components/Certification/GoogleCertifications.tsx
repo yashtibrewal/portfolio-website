@@ -8,14 +8,14 @@ export default function GoogleCertifications() {
                 <Grid item xs={6}>
                     <img
                         className='certificate'
-                        src="/Certificates/Google/Code Jam 2022_page-0001.jpg"
+                        src="/Certificates/Google/Code Jam 2022_page-0001.webp"
                         alt="Image could not be loaded"
                     />
                 </Grid>
                 <Grid item xs={6}>
                     <img
                         className='certificate'
-                        src="/Certificates/Google/Code Jam 2021_page-0001.jpg"
+                        src="/Certificates/Google/Code Jam 2021_page-0001.webp"
                         alt="Image could not be loaded"
                     />
                 </Grid>
@@ -24,21 +24,21 @@ export default function GoogleCertifications() {
                 <Grid item xs={4}>
                     <img
                         className='certificate'
-                        src="/Certificates/Google/KickStart 2019_page-0001.jpg"
+                        src="/Certificates/Google/KickStart 2019_page-0001.webp"
                         alt="Image could not be loaded"
                     />
                 </Grid>
                 <Grid item xs={4}>
                     <img
                         className='certificate'
-                        src="/Certificates/Google/KickStart 2020_page-0001.jpg"
+                        src="/Certificates/Google/KickStart 2020_page-0001.webp"
                         alt="Image could not be loaded"
                     />
                 </Grid>
                 <Grid item xs={4}>
                     <img
                         className='certificate'
-                        src="/Certificates/Google/KickStart 2021_page-0001.jpg"
+                        src="/Certificates/Google/KickStart 2021_page-0001.webp"
                         alt="Image could not be loaded"
                     />
                 </Grid>

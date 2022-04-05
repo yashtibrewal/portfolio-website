@@ -16,7 +16,7 @@ function CourseraCertificates() {
                         <CardMedia
                             component="img"
                             height="100%"
-                            image="/Certificates/Coursera Certications/Python Basics.jpg"
+                            image="/Certificates/Coursera Certications/Python Basics.webp"
                             alt="Image could not be loaded"
                         />
                         <CardContent>
@@ -37,7 +37,7 @@ function CourseraCertificates() {
                         <CardMedia
                             component="img"
                             height="100%"
-                            image="/Certificates/Coursera Certications/Python DS.jpg"
+                            image="/Certificates/Coursera Certications/Python DS.webp"
                             alt="Image could not be loaded"
                         />
                         <CardContent>
@@ -57,7 +57,7 @@ function CourseraCertificates() {
                         <CardMedia
                             component="img"
                             height="100%"
-                            image="/Certificates/Coursera Certications/Python WC.jpg"
+                            image="/Certificates/Coursera Certications/Python WC.webp"
                             alt="Image could not be loaded"
                         />
                         <CardContent>

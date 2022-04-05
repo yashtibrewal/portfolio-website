@@ -56,7 +56,7 @@ function AptitudeTests() {
                         </Box>
                         <CardMedia
                             component="img"
-                            image="/toefl.jpeg"
+                            image="/toefl.webp"
                             sx={{ width: 151 }}
                             alt="Logo could not be loaded"
                         />
@@ -77,7 +77,7 @@ function AptitudeTests() {
                         <CardMedia
                             component="img"
                             sx={{ width: 151 }}
-                            image="https://digitallearning.eletsonline.com/wp-content/uploads/2019/01/CAT-2018-1000x600.jpg"
+                            image="https://digitallearning.eletsonline.com/wp-content/uploads/2019/01/CAT-2018-1000x600.webp"
                             alt="Logo could not be loaded"
                         />
                     </Card>
@@ -97,7 +97,7 @@ function AptitudeTests() {
                         <CardMedia
                             component="img"
                             sx={{ width: 151 }}
-                            image="https://www.careerindia.com/img/2015/01/12-1421046089-xlri.jpg"
+                            image="https://www.careerindia.com/img/2015/01/12-1421046089-xlri.webp"
                             alt="Logo could not be loaded"
                         />
                     </Card>
@@ -157,7 +157,7 @@ function AptitudeTests() {
                         <CardMedia
                             component="img"
                             sx={{ width: 150 }}
-                            image="https://www.examsplanner.in/media/snap-exam.jpg"
+                            image="https://www.examsplanner.in/media/snap-exam.webp"
                             alt="Logo could not be loaded"
                         />
                     </Card>

@@ -4,16 +4,17 @@ import { Box, CardContent, Typography, List, ListItem, ListItemText } from '@mui
 
 export default function Education() {
     return (
-        <div >
+        <div id="education" className='education-bg'>
             <h1 className="logo">Education</h1>
-            <Card id="education" sx={{ display: 'flex' }}>
+            <Card  sx={{ display: 'flex' }}>
                 <CardMedia
+                    className="degree"
                     component="img"
                     sx={{ width: 700 }}
-                    image="/Degree.jpg"
+                    image="/Degree.webp"
                     alt="Image failed to load"
                 />
-                <Box sx={{ display: 'flex', flexDirection: 'column' }}>
+                <Box className="education-bg" sx={{ display: 'flex', flexDirection: 'column' }}>
                     <CardContent sx={{ flex: '1 0 auto' }}>
                         <Typography component="div" variant="h5">
                             Courses
@@ -79,7 +80,7 @@ export default function Education() {
                         </Typography>
                     </CardContent>
                 </Box>
-                <Box sx={{ display: 'flex', flexDirection: 'column' }}>
+                <Box className="education-bg" sx={{ display: 'flex', flexDirection: 'column' }}>
                     <CardContent sx={{ flex: '1 0 auto' }}>
                         <Typography component="div" variant="h5">
                             Scores (3.23/4.0)
@@ -146,7 +147,7 @@ export default function Education() {
                     </CardContent>
                 </Box>
             </Card>
-            <h3 className='logo'>Presently pursuing Masters in Computer Science from <a href='https://www.ufl.edu/'>University of Florida.</a></h3>
+            <h3 className='note'>Presently pursuing Masters in Computer Science from <a href='https://www.ufl.edu/'>University of Florida.</a></h3>
         </div>
     )
 }

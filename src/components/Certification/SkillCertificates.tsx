@@ -17,7 +17,7 @@ function SkillCertifications() {
                         <CardMedia
                             component="img"
                             height="100%"
-                            image="Certificates/Skills/OCAP.jpg"
+                            image="Certificates/Skills/OCAP.webp"
                             alt="Image Could not be loaded"
                         />
                         <CardContent>
@@ -38,7 +38,7 @@ function SkillCertifications() {
                         <CardMedia
                             component="img"
                             height="100%"
-                            image="Certificates/Skills/SAS.jpg"
+                            image="Certificates/Skills/SAS.webp"
                             alt="Image Could not be loaded"
                         />
                         <CardContent>
@@ -59,7 +59,7 @@ function SkillCertifications() {
                         <CardMedia
                             component="img"
                             height="100%"
-                            image="Certificates/Skills/UdemyJS.jpg"
+                            image="Certificates/Skills/UdemyJS.webp"
                             alt="Image Could not be loaded"
                         />
                         <CardContent>

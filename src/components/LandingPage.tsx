@@ -5,7 +5,7 @@ function LandingPage() {
       <div className="m-0">
           <img
             id="landingPageImage"
-            src="/coffee.jpeg"
+            src="/coffee.webp"
             alt="Image could not be loaded"
           ></img>
       </div>

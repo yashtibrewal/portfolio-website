@@ -16,7 +16,7 @@ function HackerRankCertificates() {
                         <CardMedia
                             component="img"
                             height="100%"
-                            image="Certificates/Hacker Rank Certifications/PSB.png"
+                            image="Certificates/Hacker Rank Certifications/PSB.webp"
                             alt="Image could not be loaded"
                         />
                         <CardContent>
@@ -37,7 +37,7 @@ function HackerRankCertificates() {
                         <CardMedia
                             component="img"
                             height="100%"
-                            image="Certificates/Hacker Rank Certifications/CBasic.png"
+                            image="Certificates/Hacker Rank Certifications/CBasic.webp"
                             alt="Image could not be loaded"
                         />
                         <CardContent>
@@ -57,7 +57,7 @@ function HackerRankCertificates() {
                         <CardMedia
                             component="img"
                             height="100%"
-                            image="Certificates/Hacker Rank Certifications/CIntermediate.png"
+                            image="Certificates/Hacker Rank Certifications/CIntermediate.webp"
                             alt="Image could not be loaded"
                         />
                         <CardContent>

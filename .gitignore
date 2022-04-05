@@ -8,8 +8,7 @@
 # testing
 /coverage
 
-# production
-/build
+# production needs to be present since ec2 instance is slow to build
 
 # misc
 .DS_Store

@@ -7,53 +7,61 @@ function AboutMe() {
         <div id="aboutMe" >
             <h1 className='logo'>About Me</h1>
             <Grid container>
-                <Grid item xs={12} sm={12} md={6}>
+                <Grid item xs={12} sm={12} md={5}>
                     <Card className="m-5" sx={{ minWidth: 300 }}>
                         <CardContent>
                             <Typography variant="h5" component="div">
                                 Quick Learner
                             </Typography>
                             <Typography variant="body2">
-                                I am a quick learner, and a logical thinker. My present interest lies in the field of Machine Learning, Full Stack Development, Software Development domains. I would like to work for a company that has an established technology team and would like to work under a mentor who could guide me in my path of technology learning.
+                                I train my brain based on feedback, just like a Nueral Network ;)
                             </Typography>
                         </CardContent>
                     </Card>
                 </Grid>
-                <Grid item xs={12} sm={12} md={6}>
+                <Grid item xs={12} sm={12} md={1}>
+                </Grid>
+                <Grid item xs={12} sm={12} md={5}>
                     <Card className="m-5" sx={{ minWidth: 300 }}>
                         <CardContent>
                             <Typography variant="h5" component="div">
                                 Full Stack Development
                             </Typography>
                             <Typography variant="body2">
-                                Working on full stack development projects gave a good understanding of Model View Controller projects. The API development in the Node js environment was part of my role with implementing the given designs for frontend using the Vuejs technology and consuming the apis with the frontend interface. I also worked on GraphQL technology which helped me to decrease the network bandwidth which a standard api call would consume assuming the same requirement.
+                                I have worked on multiple full stack development projects. They were very difficult, but I completed them.
                             </Typography>
                         </CardContent>
                     </Card>
                 </Grid>
-                <Grid item xs={12} sm={12} md={6}>
+                <Grid item xs={12} sm={12} md={1}>
+                </Grid>
+                <Grid item xs={12} sm={12} md={5}>
                     <Card className="m-5" sx={{ minWidth: 300 }}>
                         <CardContent>
                             <Typography variant="h5" component="div">
                                 ML exposure
                             </Typography>
                             <Typography variant="body2">
-                                I liked working on Machine Learning projects during my undegraduate, especially the Deep Blue competition by Mastek. It helped me gauze my skillset against the best that was present. I learned how to create cascade files which would help me recognize faces based on training over 1000 images. It was important to create the cascade instead of using an existing one because the problem statement had patients with eye patch after cataract eye operations. Me and my team were able to finish the project and were awarded a certificate of completion.
+                                I respected the opportunity given my Mastek for Deep Blue competition. My team ranked 25 out of 1000s.
                             </Typography>
                         </CardContent>
                     </Card>
                 </Grid>
-                <Grid item xs={12} sm={12} md={6}>
+                <Grid item xs={12} sm={12} md={1}>
+                </Grid>
+                <Grid item xs={12} sm={12} md={5}>
                     <Card className="m-5" sx={{ minWidth: 300 }}>
                         <CardContent>
                             <Typography variant="h5" component="div">
                                 Interests
                             </Typography>
                             <Typography variant="body2">
-                                Based on my past experiences I would love to work in the Machine Learning or Full Stack Development or a Software Development Role in future and am actively looking for internships in the United States for Summer 2022.
+                                I am looking to be paid. My UPI is 8879034882@airtel. However my contact number is different.
                             </Typography>
                         </CardContent>
                     </Card>
+                </Grid>
+                <Grid item xs={12} sm={12} md={1}>
                 </Grid>
             </Grid>
             {/* <Link href="https://drive.google.com/file/d/1eu9h2_ARaKmhLounU2pirZKYZoL537tR/view?usp=sharing">Resume</Link> */}

@@ -29,9 +29,7 @@
   text-decoration: underline ;
   color:blue;
 }
-.aptitutdeTestItems{
-  padding: 2rem 2rem;
-}
+
 
 .m-5{
   margin: 2%;
@@ -142,7 +140,7 @@ a{
   color: black;
 }
 a:hover{
-  color: white;
+  color: blue;
 }
 
 .footerIcon{

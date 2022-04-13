@@ -1,3 +1,21 @@
+Sprint 1.
+Already scored.
+
+Sprint 2.
+1. The backend and frontend are integrated. As my profile is viewed when the code form backend is reflected on the frontend.
+2. Not applicable as of now for the project I am working on.
+3. I do not have a backend logic as of now, hence it is not needed.
+4. Refer point 3. Apart from backend, I have reasonably documented the code.
+
+Sprint 3.
+I am working regularly, I am stuck with a AWS EC2 account. I will take time to recover it.
+I use a board at my home to plan the Sprint
+The documentation to run is simple. Clone the repo, install node, run serve -l (create react app).
+I have hosted the website. As long as AWS EC2 works, you can see it live on yashtibrewal.in
+There is no need for test cases as of now.
+
+Sprint 4.
+
 Project Submission (As per Guidelines mentioned on canvas)
 1. I am making my portfolio website to showcase my recruiters. This eradicates the one pager resumes which always are never enough to show the recruiter what truely the student is capable of. Implementing a portfolio website is as good as creating a website for a company.
 2. Video is not required as scrolling on the website is a video itself.

@@ -2,10 +2,7 @@ Sprint 1.
 Already scored.
 
 Sprint 2.
-1. The backend and frontend are integrated. As my profile is viewed when the code form backend is reflected on the frontend.
-2. Not applicable as of now for the project I am working on.
-3. I do not have a backend logic as of now, hence it is not needed.
-4. Refer point 3. Apart from backend, I have reasonably documented the code.
+Aready scored.
 
 Sprint 3.
 I am working regularly, I am stuck with a AWS EC2 account. I will take time to recover it.

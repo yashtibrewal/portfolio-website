@@ -10,7 +10,7 @@ function AboutMe() {
                 <Grid item xs={12} sm={12} md={5}>
                     <Card className="m-5" sx={{ minWidth: 300 }}>
                         <CardContent>
-                            <Typography variant="h5" component="div">
+                            <Typography variant="h6" component="div">
                                 Quick Learner
                             </Typography>
                             <Typography variant="body2">
@@ -24,7 +24,7 @@ function AboutMe() {
                 <Grid item xs={12} sm={12} md={5}>
                     <Card className="m-5" sx={{ minWidth: 300 }}>
                         <CardContent>
-                            <Typography variant="h5" component="div">
+                            <Typography variant="h6" component="div">
                                 Full Stack Development
                             </Typography>
                             <Typography variant="body2">
@@ -38,7 +38,7 @@ function AboutMe() {
                 <Grid item xs={12} sm={12} md={5}>
                     <Card className="m-5" sx={{ minWidth: 300 }}>
                         <CardContent>
-                            <Typography variant="h5" component="div">
+                            <Typography variant="h6" component="div">
                                 ML exposure
                             </Typography>
                             <Typography variant="body2">
@@ -52,7 +52,7 @@ function AboutMe() {
                 <Grid item xs={12} sm={12} md={5}>
                     <Card className="m-5" sx={{ minWidth: 300 }}>
                         <CardContent>
-                            <Typography variant="h5" component="div">
+                            <Typography variant="h6" component="div">
                                 Interests
                             </Typography>
                             <Typography variant="body2">
@@ -64,7 +64,7 @@ function AboutMe() {
                 <Grid item xs={12} sm={12} md={1}>
                 </Grid>
             </Grid>
-            {/* <Link href="https://drive.google.com/file/d/1eu9h2_ARaKmhLounU2pirZKYZoL537tR/view?usp=sharing">Resume</Link> */}
+            {/* <Link href="https://drive.google.com/file/d/1eu9h6_ARaKmhLounU2pirZKYZoL537tR/view?usp=sharing">Resume</Link> */}
         </div>
     )
 }

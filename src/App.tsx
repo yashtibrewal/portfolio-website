@@ -8,8 +8,8 @@ import Greet from './components/Greetings';
 import ProfesionalCertificates from './components/Professional/ProfessionalCertificates';
 import Education from './components/Education';
 import Footer from './components/Footer';
-import GoogleCertifications from './components/Certification/GoogleCertifications';
 import WorkshopCertificates from './components/Certification/WorkshopCertificates';
+import GoogleCertifications from './GoogleCertifications';
 
 function App() {
   return (

@@ -13,12 +13,6 @@ function ProfesionalCertificates() {
             <Grid container>
                 <Grid item xs={12} sm={6} md={4}>
                     <Card className="card">
-                        <CardMedia
-                            component="img"
-                            height="100%"
-                            image="/Certificates/Professional Certificates/Copy of IIFL Internship Certificate_page-0001.webp"
-                            alt="Image could not be loaded"
-                        />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
                                 Internship at <Link href="https://www.indiainfoline.com/">IIFL</Link>
@@ -33,12 +27,6 @@ function ProfesionalCertificates() {
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
                     <Card className="card">
-                        <CardMedia
-                            component="img"
-                            height="100%"
-                            image="/Certificates/Professional Certificates/Empeetex Internship Certificate_page-0001.webp"
-                            alt="Image could not be loaded"
-                        />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
                                 Internship at <Link 
@@ -57,12 +45,7 @@ function ProfesionalCertificates() {
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
                     <Card className="card">
-                        <CardMedia
-                            component="img"
-                            height="100%"
-                            image="/Certificates/Professional Certificates/NueralTechSoft Internship Certificate_page-0001.webp"
-                            alt="Image could not be loaded"
-                        />
+                        
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
                                 Internship at <Link href="https://neuraltechsoft.com/">NueralTechSoft</Link>
@@ -78,12 +61,7 @@ function ProfesionalCertificates() {
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
                     <Card className="card">
-                        <CardMedia
-                            component="img"
-                            height="100%"
-                            image="/Certificates/Professional Certificates/Freelance Letter Yash Tibrewal_page-0001.webp"
-                            alt="Image could not be loaded"
-                        />
+                        
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
                                 Freelance Work
@@ -98,12 +76,7 @@ function ProfesionalCertificates() {
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
                     <Card className="card">
-                        <CardMedia
-                            component="img"
-                            height="100%"
-                            image="/Certificates/Professional Certificates/Internship Letter Stylabs_page-0001.webp"
-                            alt="Image could not be loaded"
-                        />
+                        
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
                                 Internship at <Link href="https://stylabs.in/">Stylabs</Link>
@@ -119,12 +92,7 @@ function ProfesionalCertificates() {
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
                     <Card className="card">
-                        <CardMedia
-                            component="img"
-                            height="100%"
-                            image="/Certificates/Professional Certificates/Experience Letter of Yash Tibrewal_page-0001.webp"
-                            alt="Image could not be loaded"
-                        />
+                        
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
                                 Junior Full Stack at <Link href="https://stylabs.in/">Stylabs</Link>

@@ -1,6 +1,5 @@
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid'
 import Chip from '@mui/material/Chip'
@@ -14,12 +13,7 @@ function SkillCertifications() {
             <Grid container>
                 <Grid item xs={12} sm={6} md={4}>
                     <Card className="card">
-                        <CardMedia
-                            component="img"
-                            height="100%"
-                            image="Certificates/Skills/OCAP.webp"
-                            alt="Image Could not be loaded"
-                        />
+                        
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
                                 Oracle Certification
@@ -35,12 +29,6 @@ function SkillCertifications() {
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
                     <Card className="card">
-                        <CardMedia
-                            component="img"
-                            height="100%"
-                            image="Certificates/Skills/SAS.webp"
-                            alt="Image Could not be loaded"
-                        />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
                                 SAS Certification
@@ -56,12 +44,6 @@ function SkillCertifications() {
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
                     <Card  className="card">
-                        <CardMedia
-                            component="img"
-                            height="100%"
-                            image="Certificates/Skills/UdemyJS.webp"
-                            alt="Image Could not be loaded"
-                        />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
                                 JavaScript Certification

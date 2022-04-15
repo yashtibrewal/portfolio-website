@@ -1,5 +1,6 @@
 import Card from '@mui/material/Card'
 import {List, ListItem, ListItemText, Grid } from '@mui/material'
+import Degree from "../images/Degree.webp"
 
 export default function Education() {
     return (
@@ -11,7 +12,7 @@ export default function Education() {
                 <Grid item xs={11} sm={6}>
                     <img
                         className="degree"
-                        src="/Degree.webp"
+                        src={Degree}
                         alt="Image failed to load"
                     />
                 </Grid>

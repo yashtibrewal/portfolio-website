@@ -57,7 +57,7 @@ function AboutMe() {
                                 Interests
                             </Typography>
                             <Typography variant="body2">
-                                My UPI is 8879034882@airtel. Donation of ₹100/- to A.O.L or me will help you gain my attension. Send proof over email.
+                                If you have the power to hire me for the upcoming Summer 2022 or Fall 2022 as an SDE Intern, please email me.
                             </Typography>
                         </CardContent>
                     </Card>

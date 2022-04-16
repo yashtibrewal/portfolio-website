@@ -25,5 +25,6 @@ Project Submission (As per Guidelines mentioned on canvas)
 9. http://www.yashtibrewal.in deployed on AWS EC2 Instance. Domain purchased from bookyour.in (cheapest domains)
 10. I am willing to work on this project till I land a job.
 
+Bonus: https://yashtibrewal.github.io/portfolio-website/
 
 In case there are any issues, please email me. I hope the grading is fair.

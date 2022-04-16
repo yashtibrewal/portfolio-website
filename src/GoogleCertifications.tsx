@@ -14,14 +14,14 @@ export default function GoogleCertifications() {
                     <img
                         className='certificate'
                         src={GoogleCodeJam2022_001}
-                        alt="Image could not be loaded"
+                        alt="Certificate"
                     />
                 </Grid>
                 <Grid item xs={12} sm={12} md={6}>
                     <img
                         className='certificate'
                         src={GoogleCodeJam2021_001}
-                        alt="Image could not be loaded"
+                        alt="Certificate"
                     />
                 </Grid>
             </Grid>
@@ -30,21 +30,21 @@ export default function GoogleCertifications() {
                     <img
                         className='certificate'
                         src={KickStart2019_001}
-                        alt="Image could not be loaded"
+                        alt="Certificate"
                     />
                 </Grid>
                 <Grid item xs={12} sm={12} md={4}>
                     <img
                         className='certificate'
                         src={KickStart2020_001}
-                        alt="Image could not be loaded"
+                        alt="Certificate"
                     />
                 </Grid>
                 <Grid item xs={12} sm={12} md={4}>
                     <img
                         className='certificate'
                         src={KickStart2021_001}
-                        alt="Image could not be loaded"
+                        alt="Certificate"
                     />
                 </Grid>
             </Grid>

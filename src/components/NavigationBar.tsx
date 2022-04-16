@@ -1,5 +1,3 @@
-import Grid from '@mui/material/Grid'
-
 function NavigationBar() {
     return (
         <div id="navigationBar">

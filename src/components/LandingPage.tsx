@@ -6,7 +6,7 @@ function LandingPage() {
           <img
             id="landingPageImage"
             src={coffeImage}
-            alt="Image could not be loaded"
+            alt="Certificate"
           ></img>
       </div>
     );

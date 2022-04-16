@@ -1,7 +1,3 @@
-import Card from '@mui/material/Card'
-import {List, ListItem, ListItemText, Grid } from '@mui/material'
-import Degree from "../images/Degree.webp"
-
 export default function Education() {
     return (
         <div id="education" className='education-bg'>

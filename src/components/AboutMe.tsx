@@ -65,6 +65,7 @@ function AboutMe() {
                 <Grid item xs={12} sm={12} md={1}>
                 </Grid>
             </Grid>
+            <Link href="https://docs.google.com/document/d/1A5-oEQUGPRjOjUd2fBdAv2RaDEF6vLK0/edit?usp=sharing&ouid=118000387691405484239&rtpof=true&sd=true">Resume</Link>
         </div>
     )
 }

@@ -3,6 +3,7 @@ import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid'
 import Chip from '@mui/material/Chip'
+import { Link } from '@mui/material';
 
 
 function SkillCertifications() {
@@ -16,7 +17,7 @@ function SkillCertifications() {
                         
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
-                                Oracle Certification
+                                <Link href="https://www.oracle.com/in/index.html">Oracle</Link> Certification
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
                                 I was introduced to Java during my high school wanted to do more than just knowing it.
@@ -31,7 +32,7 @@ function SkillCertifications() {
                     <Card className="card">
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
-                                SAS Certification
+                                <Link href="https://www.sas.com/en_us/home.html">SAS</Link> Certification
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
                                 Programming in Analytics including generating reports in SAS. I wanted to push the limits beyond the coursework.
@@ -46,7 +47,7 @@ function SkillCertifications() {
                     <Card  className="card">
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
-                                JavaScript Certification
+                                <Link href="https://www.javascript.com/">JavaScript</Link> Certification
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
                                 I felt unsure about my JavaScript skills. This certificate boosted my confidence.

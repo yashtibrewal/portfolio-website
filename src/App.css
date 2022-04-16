@@ -155,7 +155,8 @@ a:hover{
 }
 
 .note{
-  padding: 1rem;
+  padding: 0.5rem;
+  padding-top: 1.5rem;
   margin: 1rem;
 }
 

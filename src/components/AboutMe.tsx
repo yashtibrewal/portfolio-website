@@ -15,7 +15,7 @@ function AboutMe() {
                                 Quick Learner
                             </Typography>
                             <Typography variant="body2">
-                                I train my brain based on feedback, just like a Nueral Network ;)
+                                I train my brain based on feedback, just like a Nueral Network. My recent IQ test score is 105.
                             </Typography>
                         </CardContent>
                     </Card>
@@ -57,7 +57,7 @@ function AboutMe() {
                                 Interests
                             </Typography>
                             <Typography variant="body2">
-                                I am looking to be paid. My UPI is 8879034882@airtel. However my contact number is different.
+                                My UPI is 8879034882@airtel. Donation of ₹100/- to A.O.L or me will help you gain my attension. Send proof over email.
                             </Typography>
                         </CardContent>
                     </Card>

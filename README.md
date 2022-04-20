@@ -5,13 +5,13 @@ Sprint 2.
 Aready scored.
 
 Sprint 3.
-I am working regularly, My teammate is stuck with hosting on heroku.
+I am working regularly. The website is hosted.
 
 I use a white board with blue marker at my home to plan the Sprint
 
-The documentation to run is simple. Clone the repo, install node, run serve -l 8080 (create react app).
+The documentation to run is simple. Clone the repo, install node, run serve -l 8080 (create react app) or just visit the website.
 
-yashtibrewal.in is the hosted.
+yashtibrewal.in is the hosted domain.
 
 There is no need for test cases as of now. Every visit to the website is a test case. If there is a bug, please raise the issue.
 

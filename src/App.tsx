@@ -5,7 +5,7 @@ import NavigationBar from './components/NavigationBar';
 import AptitudeTests from './components/ApptitudeTests'
 import AboutMe from './components/AboutMe';
 import Greet from './components/Greetings';
-import ProfesionalCertificates from './components/Professional/ProfessionalCertificates';
+import ProfessionalCertificates from './components/Professional/ProfessionalCertificates';
 import Education from './components/Education';
 import Footer from './components/Footer';
 import WorkshopCertificates from './components/Certification/WorkshopCertificates';
@@ -17,14 +17,14 @@ function App() {
       <NavigationBar></NavigationBar>
       <LandingPage></LandingPage>
       <Greet></Greet>
+      <Footer></Footer>
       <AboutMe></AboutMe>
       <GoogleCertifications></GoogleCertifications>
       <AptitudeTests></AptitudeTests>
       <Education></Education>
-      <ProfesionalCertificates></ProfesionalCertificates>
+      <ProfessionalCertificates></ProfessionalCertificates>
       <Certificates></Certificates>
       <WorkshopCertificates></WorkshopCertificates>
-      <Footer></Footer>
     </div>
   );
 }

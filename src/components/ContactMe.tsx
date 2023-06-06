@@ -1,20 +1,20 @@
-import InstagramIcon from '@mui/icons-material/Instagram';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
 import Grid from '@mui/material/Grid';
 
 function ContactMe() {
     return (
         <div id="contactMe">
-            <Grid container spacing={2}>
+            <Grid justifyContent={'center'} alignContent={'center'} container spacing={2}>
                 <Grid item xs={12} sm={6} md={3} lg={2}>
-                    <span className='pm'><a className='pb' href='https://www.instagram.com/yash.tibrewal.17/'><InstagramIcon className='pm'></InstagramIcon>Instagram</a></span>
+                    <span className='pm'><a target="_blank" rel="noreferrer" className='pb' href='https://www.linkedin.com/in/yash-tibrewal/'>LinkedIn</a></span>
                 </Grid>
                 <Grid item xs={12} sm={6} md={3} lg={2}>
-                    <span className='pm'><a className='pb' href='https://www.linkedin.com/in/yash-tibrewal/'><LinkedInIcon className='pm'></LinkedInIcon>LinkedIn</a></span>
+                    <span className='pm'><a target="_blank" rel="noreferrer" className='pb' href='https://github.com/yashtibrewal'>Github</a></span>
                 </Grid>
                 <Grid item xs={12} sm={6} md={3} lg={2}>
-                    <span className='pm'><a className='pb' href='https://github.com/yashtibrewal'><GitHubIcon className='pm'></GitHubIcon>Github</a></span>
+                    <span className='pm'><a className='pb' href='mailto:yashtibrewal.in@gmail.com'>Email</a></span>
+                </Grid>
+                <Grid item xs={12} sm={6} md={3} lg={2}>
+                    <span className='pm'><a className='pb' href='tel:+13528713427'>Phone</a></span>
                 </Grid>
             </Grid>
         </div>

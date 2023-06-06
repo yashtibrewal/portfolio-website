@@ -73,7 +73,7 @@ export default function AccountMenu() {
                 <a className="list-item" href="#googleCertificates">Google</a>
                 </MenuItem>
                 <MenuItem>
-                    <a className="list-item" href="#aptitudeTests">Apitutude</a>
+                    <a className="list-item" href="#aptitudeTests">Aptitude</a>
                 </MenuItem>
                 <MenuItem>
                     <a className="list-item" href="#education">Education</a>

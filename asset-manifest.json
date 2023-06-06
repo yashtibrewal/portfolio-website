@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.a5c9ba2b.css",
-    "main.js": "/portfolio-website/static/js/main.b25975a2.js",
+    "main.css": "/portfolio-website/static/css/main.96db4096.css",
+    "main.js": "/portfolio-website/static/js/main.f0343cb8.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-website/static/js/787.1ed0c42c.chunk.js",
     "static/media/coffee.webp": "/portfolio-website/static/media/coffee.9ba2b41a9048b2a02589.webp",
     "static/media/KickStart 2021_page-0001.webp": "/portfolio-website/static/media/KickStart 2021_page-0001.8a0739be51d5ad6898d5.webp",
@@ -10,12 +10,12 @@
     "static/media/Code Jam 2021_page-0001.webp": "/portfolio-website/static/media/Code Jam 2021_page-0001.76b31370528bb02bda96.webp",
     "static/media/KickStart 2020_page-0001.webp": "/portfolio-website/static/media/KickStart 2020_page-0001.4f87df8e3d54b85df8a3.webp",
     "index.html": "/portfolio-website/index.html",
-    "main.a5c9ba2b.css.map": "/portfolio-website/static/css/main.a5c9ba2b.css.map",
-    "main.b25975a2.js.map": "/portfolio-website/static/js/main.b25975a2.js.map",
+    "main.96db4096.css.map": "/portfolio-website/static/css/main.96db4096.css.map",
+    "main.f0343cb8.js.map": "/portfolio-website/static/js/main.f0343cb8.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-website/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5c9ba2b.css",
-    "static/js/main.b25975a2.js"
+    "static/css/main.96db4096.css",
+    "static/js/main.f0343cb8.js"
   ]
 }

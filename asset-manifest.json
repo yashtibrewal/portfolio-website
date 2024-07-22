@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.96db4096.css",
-    "main.js": "/portfolio-website/static/js/main.f0343cb8.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio-website/static/js/787.1ed0c42c.chunk.js",
-    "static/media/coffee.webp": "/portfolio-website/static/media/coffee.9ba2b41a9048b2a02589.webp",
+    "main.css": "/portfolio-website/static/css/main.80968876.css",
+    "main.js": "/portfolio-website/static/js/main.7226598a.js",
+    "static/js/453.ace21015.chunk.js": "/portfolio-website/static/js/453.ace21015.chunk.js",
     "static/media/KickStart 2021_page-0001.webp": "/portfolio-website/static/media/KickStart 2021_page-0001.8a0739be51d5ad6898d5.webp",
     "static/media/KickStart 2019_page-0001.webp": "/portfolio-website/static/media/KickStart 2019_page-0001.7d62c1252c90b67d3cd2.webp",
     "static/media/Code Jam 2022_page-0001.webp": "/portfolio-website/static/media/Code Jam 2022_page-0001.b8e8807cc74252dc5270.webp",
     "static/media/Code Jam 2021_page-0001.webp": "/portfolio-website/static/media/Code Jam 2021_page-0001.76b31370528bb02bda96.webp",
     "static/media/KickStart 2020_page-0001.webp": "/portfolio-website/static/media/KickStart 2020_page-0001.4f87df8e3d54b85df8a3.webp",
     "index.html": "/portfolio-website/index.html",
-    "main.96db4096.css.map": "/portfolio-website/static/css/main.96db4096.css.map",
-    "main.f0343cb8.js.map": "/portfolio-website/static/js/main.f0343cb8.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio-website/static/js/787.1ed0c42c.chunk.js.map"
+    "main.80968876.css.map": "/portfolio-website/static/css/main.80968876.css.map",
+    "main.7226598a.js.map": "/portfolio-website/static/js/main.7226598a.js.map",
+    "453.ace21015.chunk.js.map": "/portfolio-website/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.96db4096.css",
-    "static/js/main.f0343cb8.js"
+    "static/css/main.80968876.css",
+    "static/js/main.7226598a.js"
   ]
 }

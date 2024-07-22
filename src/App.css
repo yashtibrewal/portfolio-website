@@ -1,4 +1,7 @@
-
+html,body{
+  margin: 0px;
+  padding: 0px;
+}
 
 #landingPageImage{
   right: 0;
@@ -8,13 +11,11 @@
 
 #navigationBar{
   padding: 1rem;
-  margin-top: 0;
   background-color: rgb(31, 31, 31);
   z-index: 1;
   display: flex;
   justify-content: flex-end;
   position: sticky;
-  width: 100%;
   top:0;
   background-color: rgb(255, 233, 194);
 }
@@ -129,6 +130,7 @@
   display: flex;
   justify-content: center;
   min-height: 50px;
+  margin-top: 0px;
 }
 
 #aptitudeTests{
@@ -184,12 +186,17 @@ a:hover{
   margin: 0;
 }
 
+.semi_bold{
+  font-weight: 500;
+  font-style: italic;
+}
+
 @media screen and (max-width: 1020px) {
   #navigationBar{
     display: none;
   }
   #greet{
-    font-size: 1rem;
+    font-size: 2rem;
   }
 }
 /* 576px, 768px, 992px, and 1200px */
@@ -206,7 +213,6 @@ a:hover{
     width: inherit;
   }
   #greet{
-    padding-top: 5rem;
-    font-size: 5rem;
+    font-size: 3rem;
   }
 }

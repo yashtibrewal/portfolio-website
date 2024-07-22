@@ -15,15 +15,15 @@ function App() {
   return (
     <div className="App">
       <NavigationBar></NavigationBar>
-      <LandingPage></LandingPage>
+      {/* <LandingPage></LandingPage> */}
       <Greet></Greet>
       <Footer></Footer>
       <AboutMe></AboutMe>
-      <GoogleCertifications></GoogleCertifications>
-      <AptitudeTests></AptitudeTests>
-      <Education></Education>
+      {/* <AptitudeTests></AptitudeTests> */}
+      {/* <Education></Education> */}
       <ProfessionalCertificates></ProfessionalCertificates>
       <Certificates></Certificates>
+      <GoogleCertifications></GoogleCertifications>
       <WorkshopCertificates></WorkshopCertificates>
     </div>
   );

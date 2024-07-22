@@ -1,8 +1,11 @@
 
-export default function Greet(){
+export default function Greet() {
     return (
-        <h1 id="greet">
-            Hi there! I am Yash. Nice to meet you.
-        </h1>
+        <div>
+            {/* <img src=".\src\images\Professional Pic.jpeg" alt="Profile Picture"></img> */}
+            <h1 id="greet">
+                Hi there! I am Yash. Nice to meet you.
+            </h1>
+        </div>
     )
 }

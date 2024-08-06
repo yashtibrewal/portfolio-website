@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yashtibrewal.github.io/",
+  "homepage": "https://yashtibrewal.github.io/portfolio-website",
   "dependencies": {
     "node-static": "^0.7.11",
     "react": "^18.0.0",

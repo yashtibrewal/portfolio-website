@@ -1,44 +1,54 @@
-html,body{
-  margin: 0px;
-  padding: 0px;
+html,
+body {
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-#landingPageImage{
-  right: 0;
-  bottom: 0;
-  width: 100%;
+:root {
+  --c1: #17183B;
+  --c2: #004385;
+  --c3: #F4E04D;
+  --c4: #CAA8F5;
+  --c5: #9984D4;
 }
 
-#navigationBar{
+
+#navigationBar {
   padding: 1rem;
-  background-color: rgb(31, 31, 31);
   z-index: 1;
   display: flex;
   justify-content: flex-end;
   position: sticky;
-  top:0;
-  background-color: rgb(255, 233, 194);
+  top: 0;
+  background-color: var(--c1);
+  opacity: 90%;
 }
 
-.list-item{
+.list-item {
   padding: 0.5rem 0.5rem;
-  text-decoration: none ;
-  color: black ;
+  text-decoration: none;
+  color: var(--c3);
+  ;
   font-size: 1rem;
 }
 
-.list-item:hover{
-  text-decoration: underline ;
-  color:blue;
+.list-item:hover {
+  text-decoration: underline;
+  color: var(--c3);
 }
 
 
-.m-5{
+.m-5 {
   margin: 2%;
   width: 100%;
 }
 
-#aboutMe{
+#aboutMe {
   padding-left: 2rem;
   padding-bottom: 2rem;
   padding-right: 2rem;
@@ -46,16 +56,16 @@ html,body{
   background-color: rgb(255, 251, 243);
 }
 
-.fr{
+.fr {
   display: flex;
 }
 
-.aboutMetText{
+.aboutMetText {
   color: black;
 
 }
 
-.logo{
+.logo {
   padding: auto;
   padding-top: 1rem;
   margin: 1rem;
@@ -63,69 +73,56 @@ html,body{
   color: black;
 }
 
-.card{
+.card {
   max-width: 345;
   margin: 5;
-  min-height:1000;
+  min-height: 1000;
   padding: 1rem;
   margin: 1rem;
 }
 
-#certificates{
+#certificates {
   background-color: rgb(251, 250, 250);
 }
 
-.m-0{
-  margin-top:0;
-  margin-bottom:0;
+.m-0 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-#skillCert{
+#skillCert {
   background-color: rgb(230, 230, 255);
 }
 
-#hackerCert{
+#hackerCert {
   background-color: rgb(245, 255, 230);
 }
 
-#courseraCert{
+#courseraCert {
   background-color: white;
 }
 
-#compCert{
+#compCert {
   background-color: rgb(235, 235, 235);
 }
 
-#greet{
-  display: flex;
-  justify-content: left;
-  text-align: center;
-  color:rgb(0, 0, 0);
-  font-size: 2.6rem;
-  font-style: italic;
-  margin: 0;
-  padding: 1rem;
-  top: 5rem;
-  background-color: rgb(255, 233, 194);
-}
-
-#professionalCertificates{
+#professionalCertificates {
   background-color: aliceblue;
   width: 100%;
 }
 
-.education-bg{
+.education-bg {
   background-color: bisque;
   margin: 1rem;
 }
 
-.certificate{
+.certificate {
   width: 100%;
   margin-top: 0;
   padding-top: 0;
 }
 
-#contactMe{
+#contactMe {
   background-color: aliceblue;
   display: flex;
   justify-content: center;
@@ -133,86 +130,79 @@ html,body{
   margin-top: 0px;
 }
 
-#aptitudeTests{
+#aptitudeTests {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.pm{
-  padding:0.25rem;
-  margin:0.25rem;
+.pm {
+  padding: 0.25rem;
+  margin: 0.25rem;
   padding: 1;
-  padding-top:0;
+  padding-top: 0;
 }
 
-.pb{
+.pb {
   padding-bottom: 1px;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
-a:hover{
+
+a:hover {
   color: blue;
 }
 
-.footerIcon{
+.footerIcon {
   padding: 0;
   margin: 0;
 }
 
-.degree{
+.degree {
   padding: 1rem;
   background-color: bisque;
   width: 100%;
 }
 
-.note{
+.note {
   padding: 0.5rem;
   padding-top: 1.5rem;
   margin: 1rem;
 }
 
-.fs2rem{
+.fs2rem {
   font-size: 1.5rem;
   display: flex;
   justify-content: center;
 }
 
-.pb0{
-  padding:0;
+.pb0 {
+  padding: 0;
   margin: 0;
 }
 
-.semi_bold{
+.semi_bold {
   font-weight: 500;
   font-style: italic;
 }
 
-@media screen and (max-width: 1020px) {
-  #navigationBar{
-    display: none;
-  }
-  #greet{
-    font-size: 2rem;
-  }
-}
-/* 576px, 768px, 992px, and 1200px */
-@media screen and (min-width: 576px) {
-  #greet{
-    font-size: 2rem;
-    top: 2rem;
-  }
-}
-
 @media screen and (min-width: 1021px) {
-  #navigationBar{
+  #navigationBar {
     display: flex;
     width: inherit;
   }
-  #greet{
-    font-size: 3rem;
-  }
+
 }
+
+@media screen and (max-width: 1020px) {
+  #navigationBar {
+    display: none;
+  }
+
+}
+
+/* 576px, 768px, 992px, and 1200px */
+@media screen and (min-width: 576px) {}

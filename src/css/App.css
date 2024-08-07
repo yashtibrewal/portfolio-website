@@ -18,22 +18,10 @@ body {
 }
 
 
-#navigationBar {
-  padding: 1rem;
-  z-index: 1;
-  display: flex;
-  justify-content: flex-end;
-  position: sticky;
-  top: 0;
-  background-color: var(--c1);
-  opacity: 90%;
-}
-
 .list-item {
   padding: 0.5rem 0.5rem;
   text-decoration: none;
   color: var(--c3);
-  ;
   font-size: 1rem;
 }
 
@@ -188,21 +176,3 @@ a:hover {
   font-weight: 500;
   font-style: italic;
 }
-
-@media screen and (min-width: 1021px) {
-  #navigationBar {
-    display: flex;
-    width: inherit;
-  }
-
-}
-
-@media screen and (max-width: 1020px) {
-  #navigationBar {
-    display: none;
-  }
-
-}
-
-/* 576px, 768px, 992px, and 1200px */
-@media screen and (min-width: 576px) {}

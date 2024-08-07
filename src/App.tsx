@@ -14,7 +14,7 @@ import GoogleCertifications from './GoogleCertifications';
 function App() {
   return (
     <div className="App">
-      {/* <NavigationBar></NavigationBar> */}
+      <NavigationBar></NavigationBar>
       <Greet></Greet>
       {/* <Footer></Footer> */}
       {/* <AboutMe></AboutMe> */}

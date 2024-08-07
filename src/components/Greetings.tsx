@@ -7,16 +7,15 @@ export default function Greet() {
         text-my-yellow
         min-h-screen
         text-center
-        text-
-        text-5xl
+        text-3xl
+        md:text-5xl
         h-96
         flex
         justify-center
         items-center
         font-mono
         font-bold
-        p-10
-        drop-shadow-2xl">
+        p-10">
             <h1>
                 Hi there!{" "}
                 <ReactTyped strings={["I am Yash, nice to meet you!",

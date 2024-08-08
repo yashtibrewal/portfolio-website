@@ -9,11 +9,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-:root {
-  --c1: #17183B;
-  --c2: #004385;
-  --c3: #F4E04D;
-  --c4: #CAA8F5;
-  --c5: #9984D4;
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
+.duration-5000 {
+  animation: fadeIn 5000ms;
+}

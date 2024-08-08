@@ -1,46 +1,63 @@
 // NavigationBar.tsx
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import eventEmitter from "../CustomEventEmitter";
 
 function NavigationBar() {
 
     const [isPanelOpen, setIsPanelOpen] = useState(false)
 
+    useEffect(() => {
+
+        const eventListener = () => {
+            setIsPanelOpen(false);
+        };
+
+        eventEmitter.on('panelClosed', eventListener);
+
+        return () => {
+            eventEmitter.off('panelClosed', eventListener);
+        };
+    },[])
+
     const togglePanel = () => {
-        console.log(isPanelOpen);
+        eventEmitter.emit('panelToggled', !isPanelOpen);
         setIsPanelOpen(!isPanelOpen);
     }
-
+    const scrollToSection = (sectionId: string) => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+    };
     return (
         <div>
-
-            <div className="bg-my-blue fixed z-50 top-0 hidden lg:flex justify-end w-full">
-                <a className="m-2 ml-7 text-my-voilet text-2xl font-semibold font-mono" href="#aboutMe">About Me</a>
-                <a className="m-2 ml-7 text-my-voilet text-2xl font-semibold font-mono" href="#certificates">Certificates</a>
-                <a className="m-2 ml-7 text-my-voilet text-2xl font-semibold font-mono" href="#professionalCertificates">Work</a>
-                <a className="m-2 ml-7 text-my-voilet text-2xl font-semibold font-mono" href="#aptitudeTests">Aptitude</a>
-                <a className="m-2 ml-7 text-my-voilet text-2xl font-semibold font-mono" href="#education">Education</a>
-                <a className="m-2 ml-7 text-my-voilet text-2xl font-semibold font-mono" href="#googleCertificates">Google</a>
-                <a className="m-2 ml-7 text-my-voilet text-2xl font-semibold font-mono" href="#workshopCertificates">Workshop</a>
-            </div>
             <div
                 onClick={togglePanel}
-                className="fixed top-5 z-40 right-5 bg-my-yellow rounded-xl w-11 h-11 visbile lg:hidden">
+                className="fixed top-5 z-40 right-5 bg-my-yellow rounded-xl p-2 visbile ">
                 <div>
-                    <div className="bg-my-blue h-1 m-2 rounded"></div>
-                    <div className="bg-my-blue h-1 m-2 rounded"></div>
-                    <div className="bg-my-blue h-1 m-2 rounded"></div>
+                    <div className="text-my-blue font-semibold min-w-5 flex justify-center items-center">
+                        {isPanelOpen ? 'X' : 'Menu'}
+                    </div>
                 </div>
 
             </div>
-            <div className={`z-40 bg-my-blue-2 fixed left-0 transform transition duration-300 ${isPanelOpen ? 'translate-x-0' : '-translate-x-full'} bottom-10 h-4/5 rounded-r-xl flex flex-col justify-evenly pl-5 pr-5 w-fit`}>
-                <a className="text-my-voilet text-2xl font-semibold font-mono" href="#aboutMe">About Me</a>
-                <a className="text-my-voilet text-2xl font-semibold font-mono" href="#certificates">Certificates</a>
-                <a className="text-my-voilet text-2xl font-semibold font-mono" href="#professionalCertificates">Work</a>
-                <a className="text-my-voilet text-2xl font-semibold font-mono" href="#aptitudeTests">Aptitude</a>
-                <a className="text-my-voilet text-2xl font-semibold font-mono" href="#education">Education</a>
-                <a className="text-my-voilet text-2xl font-semibold font-mono" href="#googleCertificates">Google</a>
-                <a className="text-my-voilet text-2xl font-semibold font-mono" href="#workshopCertificates">Workshop</a>
-
+            <div className=
+                {`z-40 border-my-blue border-y-8 border-r-8 bg-my-blue-2 fixed left-0 transform transition duration-300 ${isPanelOpen ? 'translate-x-0' : '-translate-x-full'}
+             bottom-10 min-h-fit rounded-r-xl flex flex-col pl-5 pr-5 w-fit`}>
+                <div>
+                    <div>
+                        <div className="mt-5 ml-5 text-my-voilet text-lg"> Menu Items </div>
+                    </div>
+                    <div onClick={togglePanel} className="text-my-voilet-2 p-5 text-xl font-mono font-semibold">
+                        <div className="block" onClick={() => scrollToSection("education")}>Education</div><hr></hr>
+                        <div className="block mt-3" onClick={() => scrollToSection("aboutMe")}>About Me</div><hr></hr>
+                        <div className="block mt-3" onClick={() => scrollToSection("certificates")}>Certificates</div><hr></hr>
+                        <div className="block mt-3" onClick={() => scrollToSection("professionalCertificates")}>Work</div><hr></hr>
+                        {/* <div className="" onClick={() => scrollToSection("aptitudeTests")>Aptitude</div> */}
+                        {/* <div className="" onClick={() => scrollToSection("googleCertificates")>Google</div> */}
+                        {/* <div className="" onClick={() => scrollToSection("workshopCertificates")>Workshop</div> */}
+                    </div>
+                </div>
             </div>
         </div>
     );

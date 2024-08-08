@@ -1,5 +1,12 @@
+import { useEffect, useState } from "react";
 
 export default function Education() {
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        // Set visibility to true after component has mounted
+        setIsVisible(true);
+    }, []);
 
     const masters = {
         title: "M.Sc. in Computer Science ",
@@ -18,12 +25,15 @@ My academic and professional experiences have equipped me with a comprehensive u
     }
 
     return (
-        <>
+        <div id="education" 
+            className={`transition-opacity duration-5000 ${isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
+            style={{ height: isVisible ? "auto" : 0, overflow: "hidden" }}
+        >
             <br></br>
             <br></br>
-            <h1 className="underline text-4xl ml-3 md:ml-5 lg:ml-6 font-semibold text-my-yellow">Education</h1>
-            <div id="education" className="min-h-fit pt-5 md:flex md:justify-around ">
-                <div className="md:flex-1 pl-6 md:pl-8 pr-1">
+            <h1 className="underline underline-offset-8 text-4xl ml-3 md:ml-5 lg:ml-6 font-semibold text-my-yellow">Education</h1>
+            <div className="min-h-fit pt-5 md:flex md:justify-around ">
+                <div className="md:flex-1 pl-6 pt-5 md:pl-8 pr-1">
                     <ol className="relative border-s border-my-voilet-2">
                         <li className="mb-10 ms-6">
                             <span className="absolute flex items-center justify-center w-6 h-6  rounded-full -start-3 ring-8  ring-gray-900 dark:bg-blue-900">
@@ -61,6 +71,6 @@ My academic and professional experiences have equipped me with a comprehensive u
 
 
             </div>
-        </>
+        </div>
     )
 }

@@ -13,13 +13,14 @@ import GoogleCertifications from './GoogleCertifications';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-my-blue 
+        text-my-yellow">
       <NavigationBar></NavigationBar>
       <Greet></Greet>
+      <Education></Education>
       {/* <Footer></Footer> */}
       {/* <AboutMe></AboutMe> */}
       {/* <AptitudeTests></AptitudeTests> */}
-      {/* <Education></Education> */}
       {/* <ProfessionalCertificates></ProfessionalCertificates> */}
       {/* <Certificates></Certificates> */}
       {/* <GoogleCertifications></GoogleCertifications> */}

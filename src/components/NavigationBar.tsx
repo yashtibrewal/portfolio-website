@@ -1,6 +1,5 @@
 // NavigationBar.tsx
 import { useState } from "react";
-import '../css/Panel.css';
 
 function NavigationBar() {
 
@@ -14,7 +13,7 @@ function NavigationBar() {
     return (
         <div>
 
-            <div className="bg-my-blue fixed z-50 right-0 top-0 w-100 pt-5 pr-5 hidden lg:block">
+            <div className="bg-my-blue fixed z-50 top-0 hidden lg:flex justify-end w-full">
                 <a className="m-2 ml-7 text-my-voilet text-2xl font-semibold font-mono" href="#aboutMe">About Me</a>
                 <a className="m-2 ml-7 text-my-voilet text-2xl font-semibold font-mono" href="#certificates">Certificates</a>
                 <a className="m-2 ml-7 text-my-voilet text-2xl font-semibold font-mono" href="#professionalCertificates">Work</a>

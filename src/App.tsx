@@ -1,14 +1,14 @@
 import './css/App.css'
 // import './css/landing-page.css'
-import Certificates from './components/Certificates';
-import NavigationBar from './components/NavigationBar';
-import AptitudeTests from './components/ApptitudeTests'
-import AboutMe from './components/AboutMe';
+// import Certificates from './components/Certificates';
+// import NavigationBar from './components/NavigationBar';
+// import AptitudeTests from './components/ApptitudeTests'
+// import AboutMe from './components/AboutMe';
 import Greet from './components/Greetings';
-import ProfessionalCertificates from './components/Professional/ProfessionalCertificates';
+// import ProfessionalCertificates from './components/Professional/ProfessionalCertificates';
 import Education from './components/Education';
-import WorkshopCertificates from './components/Certification/WorkshopCertificates';
-import GoogleCertifications from './GoogleCertifications';
+// import WorkshopCertificates from './components/Certification/WorkshopCertificates';
+// import GoogleCertifications from './GoogleCertifications';
 import ContactMe from "./components/ContactMe";
 import { useEffect, useState } from 'react';
 import eventEmitter from './CustomEventEmitter';

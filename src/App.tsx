@@ -38,7 +38,7 @@ function App() {
   }
   return (
     <div className="App bg-my-blue 
-        text-my-yellow ">
+        text-my-yellow md:px-8 lg:px-16">
       {/* <NavigationBar></NavigationBar> */}
       <div onClick={closePanel} className={`${isPanelOpen ? 'blur-lg' : ''}`}>
         <Greet></Greet>

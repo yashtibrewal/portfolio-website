@@ -6,9 +6,9 @@ export default function Greet() {
         <div className="
         text-center
         text-4xl
-        min-h-72
+        min-h-80
         md:min-h-60
-        lg:min-h-56
+        lg:min-h-72
         md:text-5xl
         lg:text-6xl
         flex-column
@@ -29,7 +29,9 @@ export default function Greet() {
                     className="text-my-voilet font-semibold"
                     strings={
                         ["Nice to meet you!",
-                            "I am a full-stack developer"
+                            "I am a full-stack developer",
+                            "I am a android-developer",
+                            "I am a software-developer",
                         ]} typeSpeed={75} backSpeed={25} loop />
             </h1>
         </div>

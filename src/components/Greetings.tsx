@@ -5,25 +5,19 @@ export default function Greet() {
     return (
         <div className="
         text-center
-        text-4xl
-        min-h-80
+        min-h-72
         md:min-h-60
         lg:min-h-72
-        md:text-5xl
-        lg:text-6xl
-        flex-column
-        flex-wrap
+        text-4xl md:text-5xl lg:text-6xl
         font-mono
         font-bold
-        pl-5
-        pr-5
         pt-20">
             <div className="flex flex-row flex-wrap justify-center">
 
-                <h1 className="text-my-voilet-2 pl-5 pr-5">Hi there!</h1>
-                <h1 className="text-my-voilet-2 pl-5 pr-5">I am Yash</h1>
+                <h1 className="text-my-voilet-2 px-5">Hi there!</h1>
+                <h1 className="text-my-voilet-2 px-5">I am Yash</h1>
             </div>
-            <h1>
+            <h1 className="px-5">
                 {" "}
                 <ReactTyped
                     className="text-my-voilet font-semibold"

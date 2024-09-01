@@ -9,13 +9,13 @@ function Experience() {
             <div className={pageStyles.section_heading}>02. Experience</div>
             <div className={pageStyles.sub_section_spacing}>
                 <div className='space-y-4 md:space-y-6'>
-                    <div className={`${pageStyles.section_sub_heading}`}>Jr. Full Stack Developer</div>
+                    <div className={`${pageStyles.sub_section_heading}`}>Jr. Full Stack Developer</div>
                     <div className='flex flex-wrap items-center gap-x-4 gap-y-4'>
 
                         <div className={styles.company + ' flex items-center'}>
                             <a
                                 className='hover:text-green-500 '
-                                target="_blank" href="https://stylabs.com/">Stylabs</a>
+                                target="_blank" rel="noreferrer" href="https://stylabs.com/">Stylabs</a>
                         </div>
                         <div className={`${pageStyles.button} flex items-center`}>
                             <a
@@ -106,13 +106,13 @@ function Experience() {
                     </div>
                 </div>
                 <div className='space-y-4 md:space-y-6'>
-                    <div className={`${pageStyles.section_sub_heading}`}>Android Developer Intern</div>
+                    <div className={`${pageStyles.sub_section_heading}`}>Android Developer Intern</div>
                     <div className='flex flex-wrap items-center gap-x-4 gap-y-4'>
 
                         <div className={styles.company + ' flex items-center'}>
                             <a
                                 className='hover:text-green-500 '
-                                target="_blank" href="https://www.iifl.com/">India Infoline Finance Limited</a>
+                                target="_blank" rel="noreferrer" href="https://www.iifl.com/">India Infoline Finance Limited</a>
                         </div>
                         <div className={`${pageStyles.button} flex items-center`}>
                             <a
@@ -167,7 +167,7 @@ function Experience() {
                     </div>
                 </div>
                 <div className='space-y-4 md:space-y-6'>
-                    <div className={`${pageStyles.section_sub_heading}`}>Backend Developer</div>
+                    <div className={`${pageStyles.sub_section_heading}`}>Backend Developer</div>
                     <div className='flex flex-wrap items-center gap-x-4 gap-y-4'>
                         <div className={styles.company}>Freelance</div>
 
@@ -210,12 +210,12 @@ function Experience() {
                 </div>
                 <div className="flex flex-col md:flex md:flex-row items-center">
                     <div className="md:w-1/2 space-y-4 md:space-y-5">
-                        <h1 className={pageStyles.section_sub_heading}>Web and Logo Designer</h1>
+                        <h1 className={pageStyles.sub_section_heading}>Web and Logo Designer</h1>
                         <div className='flex align-items gap-x-4'>
                             <div className={styles.company + ' flex items-center'}>
                                 <a
                                     className='hover:text-green-500 '
-                                    target="_blank" href="https://empeetex-website.onrender.com/">Empeetex</a>
+                                    target="_blank" rel="noreferrer" href="https://empeetex-website.onrender.com/">Empeetex</a>
                             </div>
                             <div className={`${pageStyles.button} flex items-center`}>
                                 <a
@@ -274,18 +274,18 @@ function Experience() {
                     </div>
                     <div className="-ml-12 sm:-ml-20 md:ml-0 md:w-1/2 relative md:scale-125 xl:scale-100 hover:scale-110">
                         <div className="flex justify-center items-center">
-                            <img className="w-3/4 h-auto object-contain" src="empeetex.gif" title="Empeetex" alt="Empeetex GIF" />
+                            <img className="w-3/4 h-auto object-contain" src="gif/empeetex.gif" title="Empeetex" alt="Empeetex GIF" />
                         </div>
                     </div>
                 </div>
                 <div className='space-y-4 md:space-y-6'>
-                    <div className={`${pageStyles.section_sub_heading}`}>Technical Intern</div>
+                    <div className={`${pageStyles.sub_section_heading}`}>Technical Intern</div>
                     <div className='flex flex-wrap items-center gap-x-4 gap-y-4'>
 
                         <div className={styles.company + ' flex items-center'}>
                             <a
                                 className='hover:text-green-500 '
-                                target="_blank" href="https://neuraltechsoft.com/">NueralTechSoft</a>
+                                target="_blank" rel="noreferrer" href="https://neuraltechsoft.com/">NueralTechSoft</a>
                         </div>
                         <div className={`${pageStyles.button} flex items-center`}>
                             <a

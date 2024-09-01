@@ -5,7 +5,7 @@ import './css/App.css'
 // import AptitudeTests from './components/ApptitudeTests'
 // import AboutMe from './components/AboutMe';
 import Greet from './components/Greetings';
-import ProfessionalCertificates from './components/Professional/Experience';
+import Experience from './components/Professional/Experience';
 import Education from './components/Education/Education';
 // import WorkshopCertificates from './components/Certification/WorkshopCertificates';
 // import GoogleCertifications from './GoogleCertifications';
@@ -13,6 +13,7 @@ import Profiles from "./components/Profiles";
 import { useEffect, useState } from 'react';
 import eventEmitter from './CustomEventEmitter';
 import Projects from './components/Projects/Projects';
+import Certificates from './components/Certification/Certificates';
 
 
 
@@ -38,20 +39,25 @@ function App() {
     setPanel(false);
   }
   return (
-    <div className="App bg-gradient-to-b pb-20 from-my-blue via-violet-950 to-my-blue-2 
-        text-my-yellow px-4 md:px-8 lg:px-32">
-      {/* <NavigationBar></NavigationBar> */}
-      <div onClick={closePanel} className={`${isPanelOpen ? 'blur-lg' : ''} space-y-10`}>
-        <Greet></Greet>
-        <Profiles></Profiles>
-        <Education></Education>
-        <ProfessionalCertificates></ProfessionalCertificates>
-        <Projects></Projects>
-        {/* <AboutMe></AboutMe> */}
-        {/* <AptitudeTests></AptitudeTests> */}
-        {/* <Certificates></Certificates> */}
-        {/* <GoogleCertifications></GoogleCertifications> */}
-        {/* <WorkshopCertificates></WorkshopCertificates> */}
+    <div className="App">
+      {/* Gradient background */}
+      <div className={`fixed inset-0 bg-gradient-to-b from-my-blue  to-my-blue-2 ${isPanelOpen ? 'blur-lg' : ''}`} />
+
+      {/* Content */}
+      <div className={`relative z-10 bg-transparent text-my-yellow px-4 md:px-8 lg:px-24 xl:px-40 2xl:px-60`}>
+        <div onClick={closePanel} className={`pb-20 space-y-10 md:space-y-12 lg:space-y-20 xl:space-y-24 2xl:space-y-32`}>
+          <Greet />
+          <Profiles />
+          <Education />
+          <Experience />
+          <Projects />
+          <Certificates />
+          {/* <AboutMe></AboutMe> */}
+          {/* <AptitudeTests></AptitudeTests> */}
+          {/* <Certificates></Certificates> */}
+          {/* <GoogleCertifications></GoogleCertifications> */}
+          {/* <WorkshopCertificates></WorkshopCertificates> */}
+        </div>
       </div>
     </div>
   );

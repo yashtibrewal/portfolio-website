@@ -41,7 +41,7 @@ function Certificates() {
             <h1 className={`${pageStyles.section_heading} text-4xl font-bold`}>04. Certifications</h1>
             <div className="px-4 md:px-10 lg:px-20">
                 <div id="panel"
-                    className="flex flex-col  h-auto border-2 border-cyan-500 rounded-lg bg-gradient-to-b from-blue-100 to-blue-400">
+                    className="flex flex-col  h-auto border-2 border-cyan-500 rounded-t-lg bg-gradient-to-b from-blue-100 to-blue-400">
                     <div className="relative w-full flex flex-col items-center justify-center p-4 gap-y-5">
                         <div className={styles.img_title}>{activeCertificate.title}</div>
                         <div className="relative w-full flex items-center justify-center">
@@ -63,7 +63,7 @@ function Certificates() {
                         {tabs.map((tab, index) => (
                             <div
                                 key={index}
-                                className={`p-4 border-x-2 border-t-2 md:p-6 lg:p-8 ${styles.panel_item} text-nowrap text-center cursor-pointer transition-colors duration-300 ${activeTab === tab.name
+                                className={`p-4 border-x border-t-2 md:p-6 lg:p-8 ${styles.panel_item} text-nowrap text-center cursor-pointer transition-colors duration-300 ${activeTab === tab.name
                                     ? 'bg-cyan-500 text-white'
                                     : 'hover:bg-cyan-100 text-gray-700'
                                     }`}

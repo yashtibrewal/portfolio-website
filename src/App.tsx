@@ -9,7 +9,7 @@ import Experience from './components/Professional/Experience';
 import Education from './components/Education/Education';
 // import WorkshopCertificates from './components/Certification/WorkshopCertificates';
 // import GoogleCertifications from './GoogleCertifications';
-import Profiles from "./components/Profiles";
+import Profiles from "./components/Profiles/Profiles";
 import { useEffect, useState } from 'react';
 import eventEmitter from './CustomEventEmitter';
 import Projects from './components/Projects/Projects';

@@ -46,9 +46,9 @@ function NavigationBar() {
              bottom-10 min-h-fit rounded-r-xl flex flex-col pl-5 pr-5 w-fit`}>
                 <div>
                     <div>
-                        <div className="mt-5 ml-5 text-my-voilet text-lg"> Menu Items </div>
+                        <div className="mt-5 ml-5 text-blue-600 text-lg"> Menu Items </div>
                     </div>
-                    <div onClick={togglePanel} className="text-my-voilet-2 p-5 text-xl font-mono font-semibold">
+                    <div onClick={togglePanel} className="text-blue-400 p-5 text-xl font-mono font-semibold">
                         <div className="block" onClick={() => scrollToSection("education")}>Education</div><hr></hr>
                         <div className="block mt-3" onClick={() => scrollToSection("aboutMe")}>About Me</div><hr></hr>
                         <div className="block mt-3" onClick={() => scrollToSection("certificates")}>Certificates</div><hr></hr>

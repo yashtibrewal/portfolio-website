@@ -3,7 +3,7 @@
 
 
 .panel_item {
-    @apply tracking-wider text-base md:text-lg lg:text-2xl xl:text-3xl font-bold;
+    @apply tracking-wider text-sm md:text-base lg:text-xl xl:text-2xl font-bold;
 }
 
 .img_title {

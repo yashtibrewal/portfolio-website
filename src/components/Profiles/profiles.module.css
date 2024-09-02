@@ -6,6 +6,10 @@
     @apply text-yellow-300 fill-yellow-300;
 }
 
+.icon_size{
+    @apply w-8 lg:w-12 xl:w-16;
+}
+
 @keyframes fade_in_left {
     0% {
         opacity: 0;

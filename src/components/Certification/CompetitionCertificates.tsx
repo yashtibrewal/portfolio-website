@@ -1,3 +1,7 @@
+/**
+ * Need to add to new version?
+ */
+
 import Grid from '@mui/material/Grid'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -48,7 +52,7 @@ function CompetitionCertificates() {
                                 Deep Blue by <Link href="https://www.mastek.com/">Mastek</Link>
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                TSolved real work problem. Team of 4: Devwrat Tanwar, Jhanvi Shah, Animesh Yadav.
+                                Solved real work problem. Team of 4: Devwrat Tanwar, Jhanvi Shah, Animesh Yadav.
                             </Typography>
                         </CardContent>
                         <Chip sx={{ justifySelf: 'end', m: 1 }} variant="outlined" label="Competition" />

@@ -246,7 +246,7 @@ function Experience() {
                             <p className={pageStyles.description}>
                                 To further enhance the website, I integrated SVG design, creating an elegant animation that maintained crisp, high-quality visuals across all screen sizes. The use of SVG ensured that the graphics remained sharp and unpixelated, providing a professional and polished appearance.
                             </p>
-                            <div className='mx-auto w-full md:w-3/4 lg:w-2/3'>
+                            <div className='mx-auto w-full md:w-3/4 lg:w-2/3 2xl:w-1/3'>
                                 <img className="h-auto object-contain" src="gif/empeetex.gif" title="Empeetex" alt="Empeetex GIF" />
                             </div>
 

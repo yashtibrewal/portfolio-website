@@ -1,0 +1,5 @@
+@tailwind utilities;
+
+.nav_item{
+    @apply hover:text-yellow-500 hover:cursor-pointer transition-colors duration-300;
+}

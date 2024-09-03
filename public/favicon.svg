@@ -1,0 +1,26 @@
+<svg
+    width="32"
+    height="32"
+    viewBox="0 0 200 200"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+    <!-- Pentagon -->
+    <polygon
+        points="100,20 186,75 151,165 49,165 14,75"
+        stroke="rgb(55 48 163)"
+        stroke-width="10"
+        fill="rgb(238 242 255)"
+        stroke-linecap="round"
+    />
+
+    <!-- Letter Y -->
+    <text
+        x="50%"
+        y="50%"
+        text-anchor="middle"
+        dy=".35em"
+        font-family="Arial, sans-serif"
+        font-size="100"
+        fill="rgb(55 48 163)"> Y </text>
+</svg>

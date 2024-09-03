@@ -1,10 +1,13 @@
+/**
+ * Need to add to present website
+ */
+
 import Grid from '@mui/material/Grid'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Chip from '@mui/material/Chip'
 import Link from '@mui/material/Link'
-import IETLink from '../Utilities/IET';
 
 export default function WorkshopCertificates() {
     return (
@@ -29,7 +32,7 @@ export default function WorkshopCertificates() {
                     <Card className="card">
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
-                                Android Workshop by <IETLink></IETLink>
+                                Android Workshop by 
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
                                 I took this workshop along with my classes to polish my Android skills.
@@ -57,7 +60,7 @@ export default function WorkshopCertificates() {
                     <Card className="card">
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
-                                Member of <IETLink></IETLink>
+                                Member of 
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
                                 I was awarded for working in the I.E.T commity in college. My tasks broadly including working on posters and digital work.

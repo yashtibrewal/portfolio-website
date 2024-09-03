@@ -1,0 +1,19 @@
+@tailwind utilities;
+
+
+
+.panel_item {
+    @apply tracking-wider text-sm md:text-base lg:text-xl xl:text-2xl font-bold;
+}
+
+.img_title {
+    @apply text-xs md:text-sm lg:text-lg xl:text-xl font-bold text-black;
+}
+
+.img_button {
+    @apply text-xs md:text-sm lg:text-lg xl:text-xl font-bold px-2 py-1 rounded-lg bg-cyan-500 hover:bg-cyan-600 text-white transition-transform transform hover:scale-105;
+}
+
+.active {
+    @apply panel_item bg-blue-500 text-black;
+}

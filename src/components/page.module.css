@@ -15,7 +15,7 @@
 }
 
 .tag {
-    @apply base_tag w-fit px-2 py-1 md:p-2 rounded-lg border-2 border-cyan-500;
+    @apply base_tag w-fit px-2  rounded-lg border-2 border-cyan-500;
 }
 
 .tag_container {
@@ -36,5 +36,5 @@
 }
 
 .button {
-    @apply font-semibold text-sm md:text-base lg:text-lg xl:text-2xl w-fit text-black px-3 py-1 bg-blue-500 hover:bg-green-500 rounded-lg
+    @apply cursor-pointer font-semibold text-sm md:text-base lg:text-lg xl:text-2xl w-fit text-black px-4 py-1 bg-blue-500 hover:bg-green-500 rounded-lg
 }

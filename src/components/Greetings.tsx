@@ -6,7 +6,7 @@ export default function Greet() {
     return (
         <div className="min-h-screen flex flex-col justify-around">
 
-            <div className="flex flex-col md:flex-row items-center justify-evenly grow lg:gap-x-10">
+            <div className="flex flex-col md:flex-row items-center justify-around grow lg:gap-x-10">
 
                 <div className="flex flex-col justify-evenly items-center  font-mono font-bold space-y-5">
 
@@ -49,7 +49,7 @@ export default function Greet() {
 
             </div>
 
-            <div className="pb-5 md:pb-10 lg:pb-20">
+            <div className="pb-20">
                 <Profiles />
             </div>
         </div>

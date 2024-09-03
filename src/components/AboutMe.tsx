@@ -1,3 +1,4 @@
+import Clip from './Experience/Clip';
 import FadeInSection from './FadeInSection';
 import pageStyles from './page.module.css';
 const technologies = [
@@ -18,10 +19,22 @@ function AboutMe() {
 
   return (
     <FadeInSection>
-      <div className={`${pageStyles.section_spacing}`}>
+      <div  id="aboutMe" className={`${pageStyles.section_spacing}`}>
         <div className={pageStyles.section_heading}>01. About Me</div>
         <div className="flex flex-col-reverse items-center md:justify-between md:flex-row md:space-x-10 md:pl-5">
-          <div id="aboutMe" className={`${pageStyles.description} md:w-1/2 space-y-4`}>
+          <div  className={`${pageStyles.description} md:w-1/2 space-y-4`}>
+
+            <div className={`${pageStyles.button} flex items-center`}>
+              <a
+                target='_blank'
+                href='/pdf/resume.pdf'>
+                Resume
+              </a>
+              <div className='w-5 h-5'>
+                <Clip></Clip>
+              </div>
+
+            </div>
             <p>
               I'm a versatile software engineer with a strong grasp of both frontend and backend development, specializing in crafting seamless full stack applications. I excel in building efficient, user-centric solutions and have experience deploying web services. My passion lies in developing robust, end-to-end applications.
             </p>

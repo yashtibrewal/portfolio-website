@@ -23,7 +23,7 @@ My academic and professional experiences have equipped me with a comprehensive u
     return (
         <div id="education"
             className="mx-auto ">
-            <div className={pageStyles.section_heading}>02. Education</div>
+            <div className={pageStyles.section_heading}><span className={pageStyles.numbering}>02.</span> Education</div>
             <div className=" pt-5 md:flex md:justify-around ">
                 <div className="md:flex-1 pl-2 sm:pl-6 pt-5 md:pl-8 pr-1">
                     <ol className="relative border-s border-my-voilet-2">

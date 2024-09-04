@@ -1,5 +1,5 @@
 @tailwind utilities;
 
 .company{
-    @apply w-full uppercase text-cyan-500 text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl tracking-wide font-semibold;
+    @apply w-full uppercase text-violet-500 text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl tracking-normal font-semibold;
 }

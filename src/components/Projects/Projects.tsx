@@ -5,7 +5,7 @@ import Latest from '../Latest';
 function Projects() {
     return (
         <div id="projects" className="space-y-10">
-            <div className={pageStyles.section_heading}>04. Projects</div>
+            <div className={pageStyles.section_heading}><span className={pageStyles.numbering}>04.</span> Projects</div>
             <div className={pageStyles.sub_section_spacing}>
                 <FadeInSection>
                     <div className='flex flex-col space-y-4 md:space-y-5'>

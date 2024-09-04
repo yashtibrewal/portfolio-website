@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import eventEmitter from "../../CustomEventEmitter";
 import Logo from "../Logo";
 import styles from './navigation.module.css';
+import pageStyles from '../page.module.css';
 
 function NavigationBar() {
     const [isPanelOpen, setIsPanelOpen] = useState(false);
@@ -96,11 +97,16 @@ function NavigationBar() {
                             <div className="mt-5 ml-3 text-my-yellow text-lg"> Menu Items </div>
                         </div>
                         <div onClick={togglePanel} className="text-blue-400 p-5 text-xl font-mono font-semibold space-y-3">
-                            <div onClick={() => scrollToSection("aboutMe")}>01. About Me</div><hr></hr>
-                            <div onClick={() => scrollToSection("education")}>02. Education</div><hr></hr>
-                            <div onClick={() => scrollToSection("experience")}>03. Experience</div><hr></hr>
-                            <div onClick={() => scrollToSection("projects")}>04. Projects</div><hr></hr>
-                            <div onClick={() => scrollToSection("certificates")}>05. Certificates</div><hr></hr>
+                            <div onClick={() => scrollToSection("aboutMe")}>
+                                <span className={pageStyles.numbering}>01.</span> About Me</div><hr></hr>
+                            <div onClick={() => scrollToSection("education")}>
+                                <span className={pageStyles.numbering}>02.</span> Education</div><hr></hr>
+                            <div onClick={() => scrollToSection("experience")}>
+                                <span className={pageStyles.numbering}>03.</span> Experience</div><hr></hr>
+                            <div onClick={() => scrollToSection("projects")}>
+                                <span className={pageStyles.numbering}>04.</span> Projects</div><hr></hr>
+                            <div onClick={() => scrollToSection("certificates")}>
+                                <span className={pageStyles.numbering}>05.</span> Certificates</div><hr></hr>
                         </div>
                     </div>
                 </div>
@@ -115,11 +121,16 @@ function NavigationBar() {
                     <Logo />
                 </div>
                 <div className="flex font-semibold text-sm lg:text-base md:space-x-2 lg:space-x-5 text-white">
-                    <div className={styles.nav_item} onClick={() => scrollToSection("aboutMe")}>01. About Me</div><hr></hr>
-                    <div className={styles.nav_item} onClick={() => scrollToSection("education")}>02. Education</div><hr></hr>
-                    <div className={styles.nav_item} onClick={() => scrollToSection("experience")}>03. Experience</div><hr></hr>
-                    <div className={styles.nav_item} onClick={() => scrollToSection("projects")}>04. Projects</div><hr></hr>
-                    <div className={styles.nav_item} onClick={() => scrollToSection("certificates")}>05. Certificates</div><hr></hr>
+                    <div onClick={() => scrollToSection("aboutMe")}>
+                        <span className={pageStyles.numbering}>01.</span> About Me</div><hr></hr>
+                    <div onClick={() => scrollToSection("education")}>
+                        <span className={pageStyles.numbering}>02.</span> Education</div><hr></hr>
+                    <div onClick={() => scrollToSection("experience")}>
+                        <span className={pageStyles.numbering}>03.</span> Experience</div><hr></hr>
+                    <div onClick={() => scrollToSection("projects")}>
+                        <span className={pageStyles.numbering}>04.</span> Projects</div><hr></hr>
+                    <div onClick={() => scrollToSection("certificates")}>
+                        <span className={pageStyles.numbering}>05.</span> Certificates</div><hr></hr>
                 </div>
             </div>
         </div>

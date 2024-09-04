@@ -38,7 +38,7 @@ export const certificateData: TabInfo[] = [
         displayName: "Hackerrank",
         certificates: [
             { title: "C Basic", file: "hackerrank/hackerrank-c_basic-certificate.jpg" },
-            { title: "C Intermediate", file: "hackerrank/hackerrank-c_intermediate-certificate.jpg" },
+            { title: "C Intermediate", file: "hackerrank/hackerrank-c_intermediate-certificate_hash002.jpg" },
             { title: "Java Basic", file: "hackerrank/hackerrank-java_basic-certificate.jpg" },
             { title: "Problem Solving Basic", file: "hackerrank/hackerrank-problem_solving_basic-certificate.jpg" }
         ]

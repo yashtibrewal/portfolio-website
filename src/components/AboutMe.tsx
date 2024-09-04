@@ -19,10 +19,11 @@ function AboutMe() {
 
   return (
     <FadeInSection>
-      <div  id="aboutMe" className={`${pageStyles.section_spacing}`}>
-        <div className={pageStyles.section_heading}>01. About Me</div>
+      <div id="aboutMe" className={`${pageStyles.section_spacing}`}>
+        <div className={pageStyles.section_heading}>
+          <span className={pageStyles.numbering}>01.</span> About Me</div>
         <div className="flex flex-col-reverse items-center md:justify-between md:flex-row md:space-x-10 md:pl-5">
-          <div  className={`${pageStyles.description} md:w-1/2 space-y-4`}>
+          <div className={`${pageStyles.description} md:w-1/2 space-y-4`}>
 
             <div className={`${pageStyles.button} flex items-center`}>
               <a

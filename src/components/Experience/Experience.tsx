@@ -7,7 +7,7 @@ import FadeInSection from '../FadeInSection';
 function Experience() {
     return (
         <div id="experience" className={pageStyles.section_spacing}>
-            <div className={pageStyles.section_heading}>03. Experience</div>
+            <div className={pageStyles.section_heading}><span className={pageStyles.numbering}>03.</span> Experience</div>
             <div className={pageStyles.sub_section_spacing}>
                 <FadeInSection>
                     <div className='space-y-2 md:space-y-6'>

@@ -22,7 +22,7 @@ function Experience() {
                             <div className={`${pageStyles.button} flex items-center`}>
                                 <a
                                     target='_blank'
-                                    href='/pdf/stylabs-full-time-experience-letter-redacted_compressed.pdf'>
+                                    href='https://drive.google.com/file/d/1PyG4gS6cHqX22GFwjvtSQi3yMSKuGLML/view?usp=drive_link'>
                                     Full Time
                                 </a>
                                 <div className='w-5 h-5'>
@@ -35,7 +35,7 @@ function Experience() {
 
                                 <a
                                     target='_blank'
-                                    href='/pdf/stylabs-internship-experience-letter-redacted_compressed.pdf'>
+                                    href='https://drive.google.com/file/d/1z-JjV17RLEz-9YqkMi4mSlZnlRNMhpUw/view?usp=sharing'>
                                     Internship
                                 </a>
                                 <div className='w-5 h-5'>
@@ -121,7 +121,7 @@ function Experience() {
                             <div className={`${pageStyles.button} flex items-center`}>
                                 <a
                                     target='_blank'
-                                    href='/pdf/iifl-internship-certificate-redacted_compressed.pdf'>
+                                    href='https://drive.google.com/file/d/1ZarXI8HjYo9AsqURpeBGHQ2OJHDa-MQ6/view?usp=sharing'>
                                     Letter
                                 </a>
                                 <div className='w-5 h-5'>
@@ -178,7 +178,7 @@ function Experience() {
                             <div className={`${pageStyles.button} flex items-center`}>
                                 <a
                                     target='_blank'
-                                    href='/pdf/backend-development-freelance-work-redacted_compressed.pdf'>
+                                    href='https://drive.google.com/file/d/1nrQt3__WdmsLuOQHb_DoJhkZ6Mlqjfyp/view?usp=sharing'>
                                     Letter
                                 </a>
                                 <div className='w-5 h-5'>
@@ -222,18 +222,27 @@ function Experience() {
                                 <div className={styles.company + ' flex items-center'}>
                                     <a
                                         className='hover:text-green-500 '
-                                        target="_blank" rel="noreferrer" href="https://empeetex-website.onrender.com/">Empeetex</a>
+                                        target="_blank" rel="noreferrer" href="">Empeetex</a>
                                 </div>
                                 <div className={`${pageStyles.button} flex items-center`}>
                                     <a
                                         target='_blank'
-                                        href='/pdf/empeetex-internship-certificate-redacted_compressed.pdf'>
+                                        href='https://drive.google.com/file/d/1FLrbLsB7TkVs2TV9CS9I-Nyxq4vJ_mqq/view?usp=sharing'>
                                         Letter
                                     </a>
                                     <div className='w-5 h-5'>
                                         <Clip></Clip>
                                     </div>
-
+                                </div>
+                                <div className={`${pageStyles.button} flex items-center`}>
+                                    <a
+                                        target='_blank'
+                                        href='https://empeetex-website.onrender.com/'>
+                                        Live Link
+                                    </a>
+                                    <div className='w-5 h-5'>
+                                        <Clip></Clip>
+                                    </div>
                                 </div>
                             </div>
                             {/* Details */}
@@ -299,7 +308,7 @@ function Experience() {
                             <div className={`${pageStyles.button} flex items-center`}>
                                 <a
                                     target='_blank'
-                                    href='/pdf/nueraltechsoft-internship-letter-redacted_compressed.pdf'>
+                                    href='https://drive.google.com/file/d/1JlpMsdtB3NxLEQfu36Hqd_tncSwLhVTV/view?usp=drive_link'>
                                     Letter
                                 </a>
                                 <div className='w-5 h-5'>

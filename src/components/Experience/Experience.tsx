@@ -3,11 +3,15 @@ import pageStyles from '../page.module.css';
 import styles from './experience.module.css';
 import Clip from './Clip';
 import FadeInSection from '../FadeInSection';
+import { useState } from 'react';
 
 function Experience() {
+
+    const [isExpanded, setIsExpanded] = useState<boolean>(false);
+
     return (
         <div id="experience" className={pageStyles.section_spacing}>
-            <div className={pageStyles.section_heading}>03. Experience</div>
+            <div className={pageStyles.section_heading}><span className={pageStyles.numbering}>03.</span> Experience</div>
             <div className={pageStyles.sub_section_spacing}>
                 <FadeInSection>
                     <div className='space-y-2 md:space-y-6'>
@@ -19,48 +23,61 @@ function Experience() {
                                     className='hover:text-green-500 '
                                     target="_blank" rel="noreferrer" href="https://stylabs.com/">Stylabs</a>
                             </div>
-                            <div className={`${pageStyles.button} flex items-center`}>
-                                <a
-                                    target='_blank'
-                                    href='https://drive.google.com/file/d/1PyG4gS6cHqX22GFwjvtSQi3yMSKuGLML/view?usp=drive_link'>
+                            <button
+                                onClick={() => window.open('https://drive.google.com/file/d/1PyG4gS6cHqX22GFwjvtSQi3yMSKuGLML/view?usp=drive_link', '_blank', 'noopener, noreferrer')}
+                                className={`${pageStyles.button} flex items-center`}>
+                                <span>
                                     Full Time
-                                </a>
-                                <div className='w-5 h-5'>
+                                </span>
+                                <span className='w-5 h-5'>
                                     <Clip></Clip>
-                                </div>
+                                </span>
+                            </button>
 
-                            </div>
+                            <button
+                                onClick={() => window.open('https://drive.google.com/file/d/1z-JjV17RLEz-9YqkMi4mSlZnlRNMhpUw/view?usp=sharing', '_blank', 'noopener, noreferrer')}
+                                className={`${pageStyles.button} flex items-center`}>
 
-                            <div className={`${pageStyles.button} flex items-center`}>
-
-                                <a
-                                    target='_blank'
-                                    href='https://drive.google.com/file/d/1z-JjV17RLEz-9YqkMi4mSlZnlRNMhpUw/view?usp=sharing'>
+                                <span>
                                     Internship
-                                </a>
-                                <div className='w-5 h-5'>
+                                </span>
+                                <span className='w-5 h-5'>
                                     <Clip></Clip>
-                                </div>
+                                </span>
 
-                            </div>
+                            </button>
                         </div>
                         <div className={pageStyles.description}>
                             During my time at Stylabs Technologies, I played a pivotal role in enhancing backend scalability by developing a TypeScript framework. This framework significantly reduced onboarding time for new team members and decreased overall project costs. I also focused on creating visually appealing and user-friendly interfaces for admin clients using the Vue.js framework, incorporating debouncing techniques and pagination to optimize data consumption per API request, which led to improved network efficiency and cost savings.
 
                         </div>
+                        {
+                            !isExpanded &&
 
+                            <div className={pageStyles.description}>
 
-                        <div className={pageStyles.description}>
+                                In addition ... <a onClick={() => setIsExpanded(true)} className='font-semibold text-green-500 tracking-wider'>read more</a>
+                            </div>
+                        }
 
-                            In addition, I successfully integrated the Google Places API, employing debouncing strategies to reduce API calls by approximately 33%, thereby minimizing usage costs. My work extended to designing and implementing REST APIs and GraphQL, along with Node.js and Express.js, ensuring efficient backend functionality. I leveraged RabbitMQ for handling memory-intensive tasks like OTP delivery, ensuring task completion even during server downtimes by using RabbitMQ’s task storage capabilities for seamless recovery post-restart.
+                        {
+                            isExpanded &&
+                            <div className={pageStyles.description}>
 
-                        </div>
+                                In addition, I successfully integrated the Google Places API, employing debouncing strategies to reduce API calls by approximately 33%, thereby minimizing usage costs. My work extended to designing and implementing REST APIs and GraphQL, along with Node.js and Express.js, ensuring efficient backend functionality. I leveraged RabbitMQ for handling memory-intensive tasks like OTP delivery, ensuring task completion even during server downtimes by using RabbitMQ’s task storage capabilities for seamless recovery post-restart.
 
-                        <div className={pageStyles.description}>
+                            </div>
+                        }
+                        {
+                            isExpanded &&
+                            <div className={pageStyles.description}>
 
-                            Furthermore, I utilized Postman for API documentation, which enhanced readability and integration efficiency, contributing to faster project delivery. I also integrated AWS S3 for cloud storage, facilitating faster website rendering and ensuring quick global access to high-definition images. My role included designing and connecting comprehensive database schemas to REST APIs, which played a crucial part in the successful completion of two major projects, demonstrating my full-stack development proficiency across frontend, backend, and database management.
+                                Furthermore, I utilized Postman for API documentation, which enhanced readability and integration efficiency, contributing to faster project delivery. I also integrated AWS S3 for cloud storage, facilitating faster website rendering and ensuring quick global access to high-definition images. My role included designing and connecting comprehensive database schemas to REST APIs, which played a crucial part in the successful completion of two major projects, demonstrating my full-stack development proficiency across frontend, backend, and database management. <a onClick={() => setIsExpanded(false)} className='font-semibold text-green-500 tracking-wider'>read less</a>
 
-                        </div>
+                            </div>
+
+                        }
+
 
                         <div className={pageStyles.tag_container}>
                             <div className={pageStyles.tag}>
@@ -74,6 +91,9 @@ function Experience() {
                             </div>
                             <div className={pageStyles.tag}>
                                 REST API
+                            </div>
+                            <div className={pageStyles.tag}>
+                                Swagger
                             </div>
                             <div className={pageStyles.tag}>
                                 GraphQL
@@ -118,17 +138,16 @@ function Experience() {
                                     className='hover:text-green-500 '
                                     target="_blank" rel="noreferrer" href="https://www.iifl.com/">India Infoline Finance Limited</a>
                             </div>
-                            <div className={`${pageStyles.button} flex items-center`}>
-                                <a
-                                    target='_blank'
-                                    href='https://drive.google.com/file/d/1ZarXI8HjYo9AsqURpeBGHQ2OJHDa-MQ6/view?usp=sharing'>
+                            <button
+                                onClick={() => window.open('https://drive.google.com/file/d/1ZarXI8HjYo9AsqURpeBGHQ2OJHDa-MQ6/view?usp=sharing', '_blank', 'noopener, noreferrer')}
+                                className={`${pageStyles.button} flex items-center`}>
+                                <span>
                                     Letter
-                                </a>
-                                <div className='w-5 h-5'>
+                                </span>
+                                <span className='w-5 h-5'>
                                     <Clip></Clip>
-                                </div>
-
-                            </div>
+                                </span>
+                            </button>
                         </div>
                         <div className={pageStyles.description}>
                             <ul className='list-disc pl-4 md:pl-4 lg:pl-6'>
@@ -174,18 +193,17 @@ function Experience() {
                         <div className={`${pageStyles.sub_section_heading}`}>Backend Developer</div>
                         <div className='flex flex-wrap items-center gap-x-2 gap-y-2 md:gap-x-4 md:gap-y-4'>
                             <div className={styles.company}>Freelance</div>
-
-                            <div className={`${pageStyles.button} flex items-center`}>
-                                <a
-                                    target='_blank'
-                                    href='https://drive.google.com/file/d/1nrQt3__WdmsLuOQHb_DoJhkZ6Mlqjfyp/view?usp=sharing'>
+                            <button
+                                onClick={() => window.open('https://drive.google.com/file/d/1nrQt3__WdmsLuOQHb_DoJhkZ6Mlqjfyp/view?usp=sharing', '_blank', 'noopener, noreferrer')}
+                                className={`${pageStyles.button} flex items-center`}>
+                                <span>
                                     Letter
-                                </a>
-                                <div className='w-5 h-5'>
+                                </span>
+                                <span className='w-5 h-5'>
                                     <Clip></Clip>
-                                </div>
+                                </span>
 
-                            </div>
+                            </button>
                         </div>
                         <div className={pageStyles.description}>
                             I worked as a Backend Developer, focusing on creating robust APIs. My role involved using technologies like JavaScript, Node.js, Express.js, MongoDB, and Swagger for API documentation. I also utilized Git for version control, AWS S3 for image storage, and Postman for API testing. Successfully completed all tasks within the given timeframe, contributing to the project's backend architecture.
@@ -219,31 +237,31 @@ function Experience() {
                         <div className="space-y-4 md:space-y-5">
                             <h1 className={pageStyles.sub_section_heading}>Web and Logo Designer</h1>
                             <div className='flex flex-wrap align-items gap-x-2 gap-y-2 md:gap-x-4 md:gap-y-4'>
-                                <div className={styles.company + ' flex items-center'}>
-                                    <a
-                                        className='hover:text-green-500 '
-                                        target="_blank" rel="noreferrer" href="">Empeetex</a>
+                                <div
+
+                                    className={styles.company + ' flex items-center'}>
+                                    <span>Empeetex</span>
                                 </div>
-                                <div className={`${pageStyles.button} flex items-center`}>
-                                    <a
-                                        target='_blank'
-                                        href='https://drive.google.com/file/d/1FLrbLsB7TkVs2TV9CS9I-Nyxq4vJ_mqq/view?usp=sharing'>
+                                <button
+                                    onClick={() => window.open('https://drive.google.com/file/d/1FLrbLsB7TkVs2TV9CS9I-Nyxq4vJ_mqq/view?usp=sharing', '_blank', 'noopener, noreferrer')}
+                                    className={`${pageStyles.button} flex items-center`}>
+                                    <span>
                                         Letter
-                                    </a>
-                                    <div className='w-5 h-5'>
+                                    </span>
+                                    <span className='w-5 h-5'>
                                         <Clip></Clip>
-                                    </div>
-                                </div>
-                                <div className={`${pageStyles.button} flex items-center`}>
-                                    <a
-                                        target='_blank'
-                                        href='https://empeetex-website.onrender.com/'>
+                                    </span>
+                                </button>
+                                <button
+                                    onClick={() => window.open('https://empeetex-website.onrender.com/', '_blank', 'noopener, noreferrer')}
+                                    className={`${pageStyles.button} flex items-center`}>
+                                    <span>
                                         Live Link
-                                    </a>
-                                    <div className='w-5 h-5'>
+                                    </span>
+                                    <span className='w-5 h-5'>
                                         <Clip></Clip>
-                                    </div>
-                                </div>
+                                    </span>
+                                </button>
                             </div>
                             {/* Details */}
                             <p className={pageStyles.description}>
@@ -259,12 +277,28 @@ function Experience() {
                                 <img className="h-auto object-contain" src="gif/empeetex.gif" title="Empeetex" alt="Empeetex GIF" />
                             </div>
 
-                            <p className={pageStyles.description}>
-                                I also managed the setup and configuration of domain hosting and email hosting services for the company, utilizing platforms like CPanel and Gmail. This setup enabled seamless access to emails via web interfaces, offering the customer a familiar and user-friendly experience.
-                            </p>
-                            <p className={pageStyles.description}>
-                                Additionally, I took on the responsibility of overseeing an intern's work on reviewing and optimizing the website's code for mobile responsiveness. Through guidance and mentorship, I ensured that the website displayed flawlessly across various mobile devices, significantly enhancing the user experience for mobile users.
-                            </p>
+                            {
+                                !isExpanded &&
+
+                                <p className={pageStyles.description}>
+                                    I also managed ... <a onClick={() => setIsExpanded(true)} className='font-semibold text-green-500 tracking-wider'>read more</a>
+                                </p>
+                            }
+
+                            {
+                                isExpanded &&
+                                <p className={pageStyles.description}>
+                                    I also managed the setup and configuration of domain hosting and email hosting services for the company, utilizing platforms like CPanel and Gmail. This setup enabled seamless access to emails via web interfaces, offering the customer a familiar and user-friendly experience.
+                                </p>
+                            }
+
+                            {
+                                isExpanded &&
+                                <p className={pageStyles.description}>
+                                    Additionally, I took on the responsibility of overseeing an intern's work on reviewing and optimizing the website's code for mobile responsiveness. Through guidance and mentorship, I ensured that the website displayed flawlessly across various mobile devices, significantly enhancing the user experience for mobile users. <a onClick={() => setIsExpanded(false)} className='font-semibold text-green-500 tracking-wider'>read less</a>
+
+                                </p>
+                            }
                             <div className={pageStyles.tag_container}>
                                 <div className={pageStyles.tag}>
                                     HTML
@@ -340,8 +374,8 @@ function Experience() {
                     </div>
                 </FadeInSection>
 
-            </div>
-        </div>
+            </div >
+        </div >
     )
 }
 

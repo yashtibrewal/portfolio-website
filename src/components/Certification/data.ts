@@ -25,6 +25,17 @@ export const certificateData: TabInfo[] = [
         ]
     },
     {
+        name: "google",
+        displayName: "Google",
+        certificates: [
+            { title: "Code Jam 2021", file: "google/code-jam-2021.webp" },
+            { title: "Code Jam 2022", file: "google/code-jam-2022.webp" },
+            { title: "KickStart 2021", file: "google/kickstart-2021.webp" },
+            { title: "KickStart 2020", file: "google/kickstart-2020.webp" },
+            { title: "KickStart 2019", file: "google/kickstart-2019.webp" }
+        ]
+    },
+    {
         name: "coursera",
         displayName: "Coursera",
         certificates: [
@@ -38,7 +49,7 @@ export const certificateData: TabInfo[] = [
         displayName: "Hackerrank",
         certificates: [
             { title: "C Basic", file: "hackerrank/hackerrank-c_basic-certificate.jpg" },
-            { title: "C Intermediate", file: "hackerrank/hackerrank-c_intermediate-certificate.jpg" },
+            { title: "C Intermediate", file: "hackerrank/hackerrank-c_intermediate-certificate_hash002.jpg" },
             { title: "Java Basic", file: "hackerrank/hackerrank-java_basic-certificate.jpg" },
             { title: "Problem Solving Basic", file: "hackerrank/hackerrank-problem_solving_basic-certificate.jpg" }
         ]

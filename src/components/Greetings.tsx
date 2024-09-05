@@ -4,9 +4,9 @@ import Profiles from "./Profiles/Profiles";
 
 export default function Greet() {
     return (
-        <div className="min-h-screen flex flex-col justify-around">
+        <div className="min-h-screen flex flex-col justify-evenly">
 
-            <div className="flex flex-col md:flex-row items-center justify-around grow lg:gap-x-10">
+            <div className="flex mt-10 md:mt-20 lg:mt-32 flex-col md:flex-row items-center justify-around lg:gap-x-10">
 
                 <div className="flex flex-col justify-evenly items-center  font-mono font-bold space-y-5">
 
@@ -48,7 +48,19 @@ export default function Greet() {
                 </div>
 
             </div>
-
+            <div className="flex mx-auto">
+                <button
+                    onClick={() => {
+                        window.open(
+                            "https://docs.google.com/forms/d/e/1FAIpQLSc9fhKt9f0U76Hb6oDIc3mwBFlObwky2HNMKXKBNYxmkhWXIA/viewform?usp=sf_link",
+                            "_blank"
+                        );
+                    }}
+                    className="mx-auto w-fit px-6 py-3 rounded-full bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out transform hover:scale-105 font-bold text-sm md:text-base lg:text-lg xl:text-xl"
+                >
+                    Get in touch
+                </button>
+            </div>
             <div className="pb-20">
                 <Profiles />
             </div>

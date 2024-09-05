@@ -17,13 +17,13 @@ export default function Education() {
         time: "Aug 2015 - May 2019",
         body: `I completed my Bachelors of Technology in Information Technology from NMIMS, Mumbai. My professional experience began with an technical internship at IIFL Finance, where I contributed to the creation of a stock market data display in native Android Canvas API.
 
-My academic and professional experiences have equipped me with a comprehensive understanding of software development and communication skills. I am eager to contribute my skills as a full-stack developer to a forward-thinking company, making processes more efficient and creating innovative solutions.`
+My academic and professional experiences have equipped me with a comprehensive understanding of software development and communication skills.`
     }
 
     return (
         <div id="education"
             className="mx-auto ">
-            <div className={pageStyles.section_heading}>02. Education</div>
+            <div className={pageStyles.section_heading}><span className={pageStyles.numbering}>02.</span> Education</div>
             <div className=" pt-5 md:flex md:justify-around ">
                 <div className="md:flex-1 pl-2 sm:pl-6 pt-5 md:pl-8 pr-1">
                     <ol className="relative border-s border-my-voilet-2">

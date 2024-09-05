@@ -38,7 +38,7 @@ function Certificates() {
 
     return (
         <div id="certificates" className="space-y-10">
-            <h1 className={`${pageStyles.section_heading} text-4xl font-bold`}>05. Certifications</h1>
+            <h1 className={`${pageStyles.section_heading} text-4xl font-bold`}><span className={pageStyles.numbering}>05.</span> Certifications</h1>
             <div className="px-4 md:px-10 lg:px-20">
                 <div id="panel"
                     className="flex flex-col  h-auto border-2 border-cyan-500 rounded-t-lg bg-gradient-to-b from-blue-100 to-blue-400">

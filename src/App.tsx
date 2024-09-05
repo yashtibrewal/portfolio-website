@@ -20,6 +20,13 @@ function App() {
   useEffect(() => {
     const eventListener = (isPanelOpen: boolean) => {
       setPanel(isPanelOpen);
+
+      // Disable scroll when panel is open
+      if (isPanelOpen) {
+        document.body.style.overflow = 'hidden';
+      } else {
+        document.body.style.overflow = 'auto'; // Reset scroll when panel is closed
+      }
     };
 
     eventEmitter.on('panelToggled', eventListener);
@@ -32,17 +39,18 @@ function App() {
   const closePanel = () => {
     eventEmitter.emit('panelClosed', eventEmitter);
     setPanel(false);
+    document.body.style.overflow = 'auto'; // Reset scroll when panel is closed
   }
   return (
     <div className="App">
 
       {/* Gradient background */}
-      <div className={`fixed inset-0 bg-gradient-to-b from-my-blue  to-my-blue-2 ${isPanelOpen ? 'blur-lg' : ''}`} />
+      <div className={`fixed inset-0 bg-gradient-to-b from-my-blue  to-my-blue-2 `} />
       <NavigationBar></NavigationBar>
 
       {/* Content */}
-      <div className={`relative z-10 bg-transparent text-my-yellow px-4 md:px-8 lg:px-24 xl:px-40 2xl:px-60`}>
-        <div onClick={closePanel} className={`pb-20 space-y-10 md:space-y-12 lg:space-y-20 xl:space-y-24 2xl:space-y-32`}>
+      <div onClick={closePanel} className={`relative z-10 bg-transparent text-my-yellow px-4 md:px-8 lg:px-24 xl:px-40 2xl:px-60 transition-all duration-300 ${isPanelOpen ? 'blur-md' : ''}`}>
+        <div className={`pb-20 space-y-10 md:space-y-12 lg:space-y-20 xl:space-y-24 2xl:space-y-32  ${isPanelOpen ? 'pointer-events-none' : ''}`}>
           <Greet />
           <AboutMe></AboutMe>
           <Education />
@@ -50,7 +58,9 @@ function App() {
           <Projects />
           <Certificates />
         </div>
-        <Footer></Footer>
+      </div>
+      <div className={`relative z-10 w-full bottom-0 transition-all duration-300 ${isPanelOpen ? ' blur-md pointer-events-none' : ''}`}>
+        <Footer ></Footer>
 
       </div>
 

@@ -4,7 +4,7 @@ import Profiles from "./Profiles/Profiles";
 
 export default function Greet() {
     return (
-        <div className="min-h-screen flex flex-col justify-around">
+        <div className="min-h-screen flex flex-col justify-evenly">
 
             <div className="flex mt-10 md:mt-20 lg:mt-32 flex-col md:flex-row items-center justify-around lg:gap-x-10">
 
@@ -56,7 +56,7 @@ export default function Greet() {
                             "_blank"
                         );
                     }}
-                    className="mx-auto w-fit px-6 py-3 rounded-full bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out transform hover:scale-105"
+                    className="mx-auto w-fit px-6 py-3 rounded-full bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out transform hover:scale-105 font-bold text-sm md:text-base lg:text-lg xl:text-xl"
                 >
                     Get in touch
                 </button>

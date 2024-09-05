@@ -3,8 +3,12 @@ import pageStyles from '../page.module.css';
 import styles from './experience.module.css';
 import Clip from './Clip';
 import FadeInSection from '../FadeInSection';
+import { useState } from 'react';
 
 function Experience() {
+
+    const [isExpanded, setIsExpanded] = useState<boolean>(false);
+
     return (
         <div id="experience" className={pageStyles.section_spacing}>
             <div className={pageStyles.section_heading}><span className={pageStyles.numbering}>03.</span> Experience</div>
@@ -47,19 +51,33 @@ function Experience() {
                             During my time at Stylabs Technologies, I played a pivotal role in enhancing backend scalability by developing a TypeScript framework. This framework significantly reduced onboarding time for new team members and decreased overall project costs. I also focused on creating visually appealing and user-friendly interfaces for admin clients using the Vue.js framework, incorporating debouncing techniques and pagination to optimize data consumption per API request, which led to improved network efficiency and cost savings.
 
                         </div>
+                        {
+                            !isExpanded &&
 
+                            <div className={pageStyles.description}>
 
-                        <div className={pageStyles.description}>
+                                In addition ... <a onClick={() => setIsExpanded(true)} className='font-semibold text-green-500 tracking-wider'>read more</a>
+                            </div>
+                        }
 
-                            In addition, I successfully integrated the Google Places API, employing debouncing strategies to reduce API calls by approximately 33%, thereby minimizing usage costs. My work extended to designing and implementing REST APIs and GraphQL, along with Node.js and Express.js, ensuring efficient backend functionality. I leveraged RabbitMQ for handling memory-intensive tasks like OTP delivery, ensuring task completion even during server downtimes by using RabbitMQ’s task storage capabilities for seamless recovery post-restart.
+                        {
+                            isExpanded &&
+                            <div className={pageStyles.description}>
 
-                        </div>
+                                In addition, I successfully integrated the Google Places API, employing debouncing strategies to reduce API calls by approximately 33%, thereby minimizing usage costs. My work extended to designing and implementing REST APIs and GraphQL, along with Node.js and Express.js, ensuring efficient backend functionality. I leveraged RabbitMQ for handling memory-intensive tasks like OTP delivery, ensuring task completion even during server downtimes by using RabbitMQ’s task storage capabilities for seamless recovery post-restart.
 
-                        <div className={pageStyles.description}>
+                            </div>
+                        }
+                        {
+                            isExpanded &&
+                            <div className={pageStyles.description}>
 
-                            Furthermore, I utilized Postman for API documentation, which enhanced readability and integration efficiency, contributing to faster project delivery. I also integrated AWS S3 for cloud storage, facilitating faster website rendering and ensuring quick global access to high-definition images. My role included designing and connecting comprehensive database schemas to REST APIs, which played a crucial part in the successful completion of two major projects, demonstrating my full-stack development proficiency across frontend, backend, and database management.
+                                Furthermore, I utilized Postman for API documentation, which enhanced readability and integration efficiency, contributing to faster project delivery. I also integrated AWS S3 for cloud storage, facilitating faster website rendering and ensuring quick global access to high-definition images. My role included designing and connecting comprehensive database schemas to REST APIs, which played a crucial part in the successful completion of two major projects, demonstrating my full-stack development proficiency across frontend, backend, and database management. <a onClick={() => setIsExpanded(false)} className='font-semibold text-green-500 tracking-wider'>read less</a>
 
-                        </div>
+                            </div>
+
+                        }
+
 
                         <div className={pageStyles.tag_container}>
                             <div className={pageStyles.tag}>
@@ -73,6 +91,9 @@ function Experience() {
                             </div>
                             <div className={pageStyles.tag}>
                                 REST API
+                            </div>
+                            <div className={pageStyles.tag}>
+                                Swagger
                             </div>
                             <div className={pageStyles.tag}>
                                 GraphQL
@@ -256,12 +277,28 @@ function Experience() {
                                 <img className="h-auto object-contain" src="gif/empeetex.gif" title="Empeetex" alt="Empeetex GIF" />
                             </div>
 
-                            <p className={pageStyles.description}>
-                                I also managed the setup and configuration of domain hosting and email hosting services for the company, utilizing platforms like CPanel and Gmail. This setup enabled seamless access to emails via web interfaces, offering the customer a familiar and user-friendly experience.
-                            </p>
-                            <p className={pageStyles.description}>
-                                Additionally, I took on the responsibility of overseeing an intern's work on reviewing and optimizing the website's code for mobile responsiveness. Through guidance and mentorship, I ensured that the website displayed flawlessly across various mobile devices, significantly enhancing the user experience for mobile users.
-                            </p>
+                            {
+                                !isExpanded &&
+
+                                <p className={pageStyles.description}>
+                                    I also managed ... <a onClick={() => setIsExpanded(true)} className='font-semibold text-green-500 tracking-wider'>read more</a>
+                                </p>
+                            }
+
+                            {
+                                isExpanded &&
+                                <p className={pageStyles.description}>
+                                    I also managed the setup and configuration of domain hosting and email hosting services for the company, utilizing platforms like CPanel and Gmail. This setup enabled seamless access to emails via web interfaces, offering the customer a familiar and user-friendly experience.
+                                </p>
+                            }
+
+                            {
+                                isExpanded &&
+                                <p className={pageStyles.description}>
+                                    Additionally, I took on the responsibility of overseeing an intern's work on reviewing and optimizing the website's code for mobile responsiveness. Through guidance and mentorship, I ensured that the website displayed flawlessly across various mobile devices, significantly enhancing the user experience for mobile users. <a onClick={() => setIsExpanded(false)} className='font-semibold text-green-500 tracking-wider'>read less</a>
+
+                                </p>
+                            }
                             <div className={pageStyles.tag_container}>
                                 <div className={pageStyles.tag}>
                                     HTML

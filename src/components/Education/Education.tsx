@@ -17,7 +17,7 @@ export default function Education() {
         time: "Aug 2015 - May 2019",
         body: `I completed my Bachelors of Technology in Information Technology from NMIMS, Mumbai. My professional experience began with an technical internship at IIFL Finance, where I contributed to the creation of a stock market data display in native Android Canvas API.
 
-My academic and professional experiences have equipped me with a comprehensive understanding of software development and communication skills. I am eager to contribute my skills as a full-stack developer to a forward-thinking company, making processes more efficient and creating innovative solutions.`
+My academic and professional experiences have equipped me with a comprehensive understanding of software development and communication skills.`
     }
 
     return (

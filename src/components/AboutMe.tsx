@@ -25,17 +25,17 @@ function AboutMe() {
         <div className="flex flex-col-reverse items-center md:justify-between md:flex-row md:space-x-10 md:pl-5">
           <div className={`${pageStyles.description} md:w-1/2 space-y-4`}>
 
-            <div className={`${pageStyles.button} flex items-center`}>
-              <a
-                target='_blank'
-                href='/pdf/resume.pdf'>
+            <button
+              onClick={() => { window.open('/pdf/resume.pdf', '_blank', 'noopener, noreferrer') }}
+              className={`${pageStyles.button} flex items-center`}>
+              <span>
                 Resume
-              </a>
+              </span>
               <div className='w-5 h-5'>
                 <Clip></Clip>
               </div>
 
-            </div>
+            </button>
             <p>
               I'm a versatile software engineer with a strong grasp of both frontend and backend development, specializing in crafting seamless full stack applications. I excel in building efficient, user-centric solutions and have experience deploying web services. My passion lies in developing robust, end-to-end applications.
             </p>

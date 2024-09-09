@@ -54,7 +54,7 @@ function AboutMe() {
             <img
               className="object-contain border-2 border-blue-500 rounded-lg shadow-lg mb-5"
               src="images/professional-picture.jpeg"
-              alt="My Picture"
+              alt="Professional"
               title="Yash Tibrewal"
             />
           </div>

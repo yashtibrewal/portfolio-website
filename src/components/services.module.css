@@ -1,0 +1,5 @@
+@tailwind utilities;
+
+.card {
+    @apply border-2 w-48 p-2 rounded-lg;
+}

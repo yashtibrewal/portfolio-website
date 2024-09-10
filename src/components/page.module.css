@@ -45,6 +45,7 @@
 
 .bg_gradient {
     @apply fixed inset-0 bg-gradient-to-b from-my-blue to-my-blue-2;
+    z-index: -1;
 }
 
 .pagePadding{

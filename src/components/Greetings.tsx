@@ -1,6 +1,8 @@
 import { ReactTyped } from "react-typed";
 import FadeInSection from "./FadeInSection";
 import Profiles from "./Profiles/Profiles";
+import { Link } from "react-router-dom";
+import GetInTouch from "./Buttons/GetInTouch";
 
 export default function Greet() {
     return (
@@ -48,18 +50,13 @@ export default function Greet() {
                 </div>
 
             </div>
-            <div className="flex mx-auto">
-                <button
-                    onClick={() => {
-                        window.open(
-                            "https://docs.google.com/forms/d/e/1FAIpQLSc9fhKt9f0U76Hb6oDIc3mwBFlObwky2HNMKXKBNYxmkhWXIA/viewform?usp=sf_link",
-                            "_blank"
-                        );
-                    }}
+            <div className="flex mx-auto space-x-5">
+                <GetInTouch />
+                <Link
                     className="mx-auto w-fit px-6 py-3 rounded-full bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out transform hover:scale-105 font-bold text-sm md:text-base lg:text-lg xl:text-xl"
-                >
-                    Get in touch
-                </button>
+                    to={"/services"}                >
+                    Explore my services
+                </Link>
             </div>
             <div className="pb-20">
                 <Profiles />

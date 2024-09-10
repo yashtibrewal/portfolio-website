@@ -56,7 +56,7 @@ function Experience() {
 
                             <div className={pageStyles.description}>
 
-                                In addition ... <a onClick={() => setIsExpanded(true)} className='font-semibold text-green-500 tracking-wider'>read more</a>
+                                In addition ... <button onClick={() => setIsExpanded(true)} className='font-semibold text-green-500 tracking-wider'>read more</button>
                             </div>
                         }
 
@@ -72,7 +72,7 @@ function Experience() {
                             isExpanded &&
                             <div className={pageStyles.description}>
 
-                                Furthermore, I utilized Postman for API documentation, which enhanced readability and integration efficiency, contributing to faster project delivery. I also integrated AWS S3 for cloud storage, facilitating faster website rendering and ensuring quick global access to high-definition images. My role included designing and connecting comprehensive database schemas to REST APIs, which played a crucial part in the successful completion of two major projects, demonstrating my full-stack development proficiency across frontend, backend, and database management. <a onClick={() => setIsExpanded(false)} className='font-semibold text-green-500 tracking-wider'>read less</a>
+                                Furthermore, I utilized Postman for API documentation, which enhanced readability and integration efficiency, contributing to faster project delivery. I also integrated AWS S3 for cloud storage, facilitating faster website rendering and ensuring quick global access to high-definition images. My role included designing and connecting comprehensive database schemas to REST APIs, which played a crucial part in the successful completion of two major projects, demonstrating my full-stack development proficiency across frontend, backend, and database management. <button onClick={() => setIsExpanded(false)} className='font-semibold text-green-500 tracking-wider'>read less</button>
 
                             </div>
 
@@ -281,7 +281,7 @@ function Experience() {
                                 !isExpanded &&
 
                                 <p className={pageStyles.description}>
-                                    I also managed ... <a onClick={() => setIsExpanded(true)} className='font-semibold text-green-500 tracking-wider'>read more</a>
+                                    I also managed ... <button onClick={() => setIsExpanded(true)} className='font-semibold text-green-500 tracking-wider'>read more</button>
                                 </p>
                             }
 
@@ -295,7 +295,7 @@ function Experience() {
                             {
                                 isExpanded &&
                                 <p className={pageStyles.description}>
-                                    Additionally, I took on the responsibility of overseeing an intern's work on reviewing and optimizing the website's code for mobile responsiveness. Through guidance and mentorship, I ensured that the website displayed flawlessly across various mobile devices, significantly enhancing the user experience for mobile users. <a onClick={() => setIsExpanded(false)} className='font-semibold text-green-500 tracking-wider'>read less</a>
+                                    Additionally, I took on the responsibility of overseeing an intern's work on reviewing and optimizing the website's code for mobile responsiveness. Through guidance and mentorship, I ensured that the website displayed flawlessly across various mobile devices, significantly enhancing the user experience for mobile users. <button onClick={() => setIsExpanded(false)} className='font-semibold text-green-500 tracking-wider'>read less</button>
 
                                 </p>
                             }
@@ -342,6 +342,7 @@ function Experience() {
                             <div className={`${pageStyles.button} flex items-center`}>
                                 <a
                                     target='_blank'
+                                    rel="noreferrer"
                                     href='https://drive.google.com/file/d/1JlpMsdtB3NxLEQfu36Hqd_tncSwLhVTV/view?usp=drive_link'>
                                     Letter
                                 </a>

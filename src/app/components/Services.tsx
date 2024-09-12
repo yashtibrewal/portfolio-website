@@ -4,7 +4,7 @@ import FadeInSection from "./FadeInSection";
 import Footer from "./Footer";
 import pageStyles from './page.module.css';
 import styles from './services.module.css';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 function Services() {
 
@@ -54,7 +54,7 @@ function Services() {
                                         <GetInTouch />
                                         <Link
                                             className="mx-auto w-fit px-6 py-3 rounded-full bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out transform hover:scale-105 font-bold text-sm md:text-base lg:text-lg xl:text-xl"
-                                            to={"/"}                >
+                                            href={"/"}                >
                                             Checkout my portfolio
                                         </Link>
                                     </div>
@@ -91,7 +91,7 @@ function Services() {
                             <div className="space-y-5">
 
                                 <div className={pageStyles.sub_section_heading}>
-                                <span className="text-green-500">02.</span> {services[1]}
+                                    <span className="text-green-500">02.</span> {services[1]}
                                 </div>
                                 <p className={pageStyles.description}>
                                     I specialize in designing tailored software solutions that streamline your business processes, saving you time and effort. By automating tasks and improving efficiency, my custom software allows you to focus on what truly matters – growing your business.
@@ -112,7 +112,7 @@ function Services() {
                             <div className="space-y-5">
 
                                 <div className={pageStyles.sub_section_heading}>
-                                <span className="text-green-500">03.</span> {services[2]}
+                                    <span className="text-green-500">03.</span> {services[2]}
                                 </div>
                                 <p className={pageStyles.description}>
                                     I create user-friendly websites and mobile apps that not only look great but work seamlessly across devices. Whether you need a new website to attract customers or a mobile app to keep your business accessible, I deliver solutions that enhance your digital presence.
@@ -133,7 +133,7 @@ function Services() {
                             <div className="space-y-5">
 
                                 <div className={pageStyles.sub_section_heading}>
-                                <span className="text-green-500">04.</span> {services[3]}
+                                    <span className="text-green-500">04.</span> {services[3]}
                                 </div>
                                 <p className={pageStyles.description}>
                                     Looking for a dedicated developer to bring your ideas to life? With expertise in building tailored web and mobile applications, I provide reliable and high-quality development services to meet your specific business needs.

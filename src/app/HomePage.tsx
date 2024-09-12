@@ -1,3 +1,5 @@
+'use client'
+
 import { useState, useEffect } from "react";
 import AboutMe from "./components/AboutMe";
 import Certificates from "./components/Certification/Certificates";
@@ -11,7 +13,7 @@ import eventEmitter from "./CustomEventEmitter";
 
 import pageStyles from './components/page.module.css';
 
-function Home() {
+function HomePage() {
 
     const [isPanelOpen, setPanel] = useState(false);
 
@@ -68,4 +70,4 @@ function Home() {
 }
 
 
-export default Home
+export default HomePage

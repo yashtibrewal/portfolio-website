@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import Link from 'next/link'
 
 // text-xs md:text-sm lg:text-base  tracking-tight;
 
@@ -16,12 +16,12 @@ export default function Footer() {
             <div className='flex-col'>
                 <div className='flex justify-between'>
                     <div className='hover:underline hover:underline-offset-2'>
-                        <Link className="text-xs md:text-sm lg:text-base  tracking-tight font-semibold" to="/services">
+                        <Link className="text-xs md:text-sm lg:text-base  tracking-tight font-semibold" href="/services">
                             Services
                         </Link>
                     </div>
                     <div className='hover:underline hover:underline-offset-2'>
-                        <Link className="text-xs md:text-sm lg:text-base  tracking-tight font-semibold" to="/">
+                        <Link className="text-xs md:text-sm lg:text-base  tracking-tight font-semibold" href="/">
                             Portfolio
                         </Link>
                     </div>

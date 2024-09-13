@@ -2,6 +2,7 @@ import pageStyles from '../page.module.css';
 import { useState } from 'react';
 import { certificateData, TabInfo } from './data';
 import styles from './certificates.module.css';
+import Image from 'next/image';
 
 // Extract the names of the tabs from the certificateData array
 const tabs: TabInfo[] = certificateData.map(tab => ({
@@ -36,6 +37,8 @@ function Certificates() {
     const activeTabCertificates = tabs.find(tab => tab.name === activeTab)?.certificates || [];
     const activeCertificate = activeTabCertificates[activeCertificateIndex];
 
+    console.log(`/../public/images/certificates/${activeCertificate.file}`);
+
     return (
         <div id="certificates" className="space-y-10">
             <h1 className={`${pageStyles.section_heading} text-4xl font-bold`}><span className={pageStyles.numbering}>05.</span> Certifications</h1>
@@ -47,9 +50,11 @@ function Certificates() {
                         <div className="relative w-full flex items-center justify-center">
                             {activeCertificate && (
 
-                                <img
+                                <Image
                                     src={`/images/certificates/${activeCertificate.file}`}
                                     alt={activeCertificate.title}
+                                    layout="fill" // Fills the parent container
+                                    objectFit="contain" // Ensures it doesn't stretch
                                     className="max-w-full max-h-96 h-auto rounded-lg shadow-lg object-contain"
                                 />
                             )}

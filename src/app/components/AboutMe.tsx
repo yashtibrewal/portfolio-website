@@ -1,6 +1,8 @@
 import Clip from './Experience/Clip';
 import FadeInSection from './FadeInSection';
 import pageStyles from './page.module.css';
+import Image from 'next/image';
+
 const technologies = [
   'React',
   'Node.js',
@@ -51,11 +53,13 @@ function AboutMe() {
             </div>
           </div>
           <div className="w-1/3 hover:scale-105 transition duration-300 ease-in-out">
-            <img
-              className="object-contain border-2 border-blue-500 rounded-lg shadow-lg mb-5"
-              src="images/professional-picture.jpeg"
+            <Image
+              className=" border-2 border-blue-500 rounded-lg shadow-lg mb-5"
+              src={'/images/professional-picture.jpeg'}
               alt="Professional"
               title="Yash Tibrewal"
+              layout="fill" // Fills the parent container
+              objectFit="contain" // Ensures it doesn't stretch
             />
           </div>
         </div>

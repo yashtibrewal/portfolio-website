@@ -1,6 +1,8 @@
 import pageStyles from '../page.module.css';
 import FadeInSection from '../FadeInSection';
 import Latest from '../Latest';
+import Image from 'next/image';
+
 
 function Projects() {
     return (
@@ -32,10 +34,16 @@ function Projects() {
                             </div>
                             <div className="-ml-12 sm:-ml-20 md:ml-0 md:w-1/2 relative md:scale-125 xl:scale-100 hover:scale-110">
                                 <div className="flex justify-center items-center">
-                                    <img className="w-3/4 h-auto object-contain" src="images/projects/desktop-mockup-pulse-pricing.png"
-                                        title="Desktop mockup of Pulse pricing page" alt="Desktop mockup of Pulse pricing page" />
-                                    <img className="w-1/4 h-auto object-contain absolute right-5 top-0" src="images/projects/mobile-mockup-pulse-pricing.png"
-                                        title="Mobile mockup of Pulse pricing page" alt="Mobile mockup of Pulse pricing page" />
+                                    <Image className="w-3/4 h-auto object-contain" src={'/images/projects/desktop-mockup-pulse-pricing.png'}
+                                        title="Desktop mockup of Pulse pricing page" alt="Desktop mockup of Pulse pricing page"
+                                        layout="fill" // Fills the parent container
+                                        objectFit="contain" // Ensures it doesn't stretch
+                                    />
+                                    <Image className="w-1/4 h-auto object-contain absolute right-5 top-0" src={'/images/projects/mobile-mockup-pulse-pricing.png'}
+                                        title="Mobile mockup of Pulse pricing page" alt="Mobile mockup of Pulse pricing page"
+                                        layout="fill" // Fills the parent container
+                                        objectFit="contain" // Ensures it doesn't stretch
+                                    />
                                 </div>
                             </div>
                         </div>
@@ -83,8 +91,15 @@ function Projects() {
                             </div>
                             <div className="-ml-12 sm:-ml-20 md:ml-0 md:w-1/2 relative md:scale-125 xl:scale-100 hover:scale-110">
                                 <div className="flex justify-center items-center">
-                                    <img className="w-3/4 h-auto object-contain" src="images/projects/desktop-mockup-podia-product.png" title="Desktop mockup of Podia Product page" alt="Desktop mockup of Podia Product page" />
-                                    <img className="w-1/4 h-auto object-contain absolute right-5 top-0" src="images/projects/mobile-mockup-podia-product.png" title="Mobile mockup of Podia product page" alt="Mobile mockup of Podia product page" />
+                                    <Image className="w-3/4 h-auto object-contain" src={'/images/projects/desktop-mockup-podia-product.png'} title="Desktop mockup of Podia Product page" alt="Desktop mockup of Podia Product page"
+                                        layout="fill" // Fills the parent container
+                                        objectFit="contain" // Ensures it doesn't stretch
+                                    />
+                                    <Image className="w-1/4 h-auto object-contain absolute right-5 top-0" src={'/images/projects/mobile-mockup-podia-product.png'} title="Mobile mockup of Podia product page" alt="Mobile mockup of Podia product page"
+
+                                        layout="fill" // Fills the parent container
+                                        objectFit="contain" // Ensures it doesn't stretch
+                                    />
                                 </div>
                             </div>
                         </div>
@@ -126,9 +141,13 @@ function Projects() {
                             </div>
                             <div className="-ml-12 sm:-ml-20 md:ml-0 md:w-1/2 relative md:scale-125 xl:scale-100 hover:scale-110">
                                 <div className="flex justify-center items-center">
-                                    <img className="w-3/4 h-auto object-contain" src="images/projects/spam-number-detection-code.png"
+                                    <Image className="w-3/4 h-auto object-contain" src={'/images/projects/spam-number-detection-code.png'}
                                         title="Spam Number Detection Code"
-                                        alt="Spam Number Detection Code" />
+                                        alt="Spam Number Detection Code"
+
+                                        layout="fill" // Fills the parent container
+                                        objectFit="contain" // Ensures it doesn't stretch
+                                    />
                                 </div>
                             </div>
                         </div>

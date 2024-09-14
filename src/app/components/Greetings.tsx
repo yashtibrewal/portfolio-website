@@ -25,7 +25,7 @@ export default function Greet() {
                             <div className="pl-2 md:pl-5 lg:pl-8 xl:pl-10 2xl:pl-14">
                                 <span className="text-slate-200">
                                     <span className="text-blue-500">[</span>
-                                    'full-stack', 'android', 'software'
+                                        &apos;full-stack&apos;, &apos;android&apos;, &apos;software&apos;
                                     <span className="text-blue-500">]</span>
                                 </span>
                             </div>
@@ -33,7 +33,7 @@ export default function Greet() {
                                 .<span className="text-orange-500">map</span>(
                                 <span className="text-yellow-500">role</span>=&gt;
                                 <span className="text-yellow-500">role</span>+
-                                <span className="text-slate-200">'developer'</span>);
+                                <span className="text-slate-200">&apos;developer&apos;</span>);
                             </span>
                         </div>
                     </div>

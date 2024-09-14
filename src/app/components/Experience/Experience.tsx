@@ -207,7 +207,7 @@ function Experience() {
                             </button>
                         </div>
                         <div className={pageStyles.description}>
-                            I worked as a Backend Developer, focusing on creating robust APIs. My role involved using technologies like JavaScript, Node.js, Express.js, MongoDB, and Swagger for API documentation. I also utilized Git for version control, AWS S3 for image storage, and Postman for API testing. Successfully completed all tasks within the given timeframe, contributing to the project's backend architecture.
+                            I worked as a Backend Developer, focusing on creating robust APIs. My role involved using technologies like JavaScript, Node.js, Express.js, MongoDB, and Swagger for API documentation. I also utilized Git for version control, AWS S3 for image storage, and Postman for API testing. Successfully completed all tasks within the given timeframe, contributing to the project&apos;s backend architecture.
                         </div>
 
                         <div className={pageStyles.tag_container}>
@@ -266,15 +266,16 @@ function Experience() {
                             </div>
                             {/* Details */}
                             <p className={pageStyles.description}>
-                                I developed a dynamic website tailored to specific requirements, accommodating multiple versions and visual styles. The project involved creating various static website designs through an iterative process, focusing on color choices and content display preferences. Ultimately, I successfully delivered a static website to promote and market the customer's products on an international scale.
+                                I developed a dynamic website tailored to specific requirements, accommodating multiple versions and visual styles. The project involved creating various static website designs through an iterative process, focusing on color choices and content display preferences. Ultimately, I successfully delivered a static website to promote and market the customer&apos;s products on an international scale.
                             </p>
                             <p className={pageStyles.description}>
-                                In addition, I designed the company logo using vector graphics on Illustrator, ensuring infinite scalability without any loss of quality. A pixel-perfect logo was crucial as it reflects the company's credibility and authenticity.
+                                In addition, I designed the company logo using vector graphics on Illustrator, ensuring infinite scalability without any loss of quality. A pixel-perfect logo was crucial as it reflects the company&apos;s credibility and authenticity.
                             </p>
                             <p className={pageStyles.description}>
                                 To further enhance the website, I integrated SVG design, creating an elegant animation that maintained crisp, high-quality visuals across all screen sizes. The use of SVG ensured that the graphics remained sharp and unpixelated, providing a professional and polished appearance.
                             </p>
                             <div className='mx-auto w-full md:w-3/4 lg:w-2/3 2xl:w-1/3'>
+                                {/* Adding unoptimized specifically for GIF */}
                                 <Image className="h-auto object-contain" src={'/gif/empeetex.gif'} title="Empeetex" alt="Empeetex GIF"
                                     unoptimized
                                     layout="fill" // Fills the parent container
@@ -300,7 +301,7 @@ function Experience() {
                             {
                                 isExpanded &&
                                 <p className={pageStyles.description}>
-                                    Additionally, I took on the responsibility of overseeing an intern's work on reviewing and optimizing the website's code for mobile responsiveness. Through guidance and mentorship, I ensured that the website displayed flawlessly across various mobile devices, significantly enhancing the user experience for mobile users. <button onClick={() => setIsExpanded(false)} className='font-semibold text-green-500 tracking-wider'>read less</button>
+                                    Additionally, I took on the responsibility of overseeing an intern&apos;s work on reviewing and optimizing the website&apos;s code for mobile responsiveness. Through guidance and mentorship, I ensured that the website displayed flawlessly across various mobile devices, significantly enhancing the user experience for mobile users. <button onClick={() => setIsExpanded(false)} className='font-semibold text-green-500 tracking-wider'>read less</button>
 
                                 </p>
                             }
@@ -358,7 +359,7 @@ function Experience() {
                             </div>
                         </div>
                         <p className={pageStyles.description}>
-                            Developed a comprehensive static website tailored to the client's specific needs, ensuring a user-friendly experience and visually appealing design. Additionally, utilized Python to analyze stock market data, delivering valuable insights into stock prices and trends to support informed decision-making.
+                            Developed a comprehensive static website tailored to the client&apos;s specific needs, ensuring a user-friendly experience and visually appealing design. Additionally, utilized Python to analyze stock market data, delivering valuable insights into stock prices and trends to support informed decision-making.
                         </p>
                         <div className={pageStyles.tag_container}>
                             <div className={pageStyles.tag}>

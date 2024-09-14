@@ -1,6 +1,7 @@
 import Clip from './Experience/Clip';
 import FadeInSection from './FadeInSection';
 import pageStyles from './page.module.css';
+import profesionalPicture from '../../../public/images/professional-picture.jpeg'
 import Image from 'next/image';
 
 const technologies = [
@@ -21,7 +22,8 @@ function AboutMe() {
 
   return (
     <FadeInSection>
-      <div id="aboutMe" className={`${pageStyles.section_spacing}`}>
+      <div id="aboutMe"
+        className={`${pageStyles.section_spacing}`}>
         <div className={pageStyles.section_heading}>
           <span className={pageStyles.numbering}>01.</span> About Me</div>
         <div className="flex flex-col-reverse items-center md:justify-between md:flex-row md:space-x-10 md:pl-5">
@@ -39,14 +41,15 @@ function AboutMe() {
 
             </button>
             <p>
-              I'm a versatile software engineer with a strong grasp of both frontend and backend development, specializing in crafting seamless full stack applications. I excel in building efficient, user-centric solutions and have experience deploying web services. My passion lies in developing robust, end-to-end applications.
+              I&apos;m a versatile software engineer with a strong grasp of both frontend and backend development, specializing in crafting seamless full stack applications. I excel in building efficient, user-centric solutions and have experience deploying web services. My passion lies in developing robust, end-to-end applications.
             </p>
             <p>
               Here are some of the technologies I am working with.
             </p>
             <div className={pageStyles.tag_container}>
               {technologies.map((tech, index) => (
-                <div key={index} className={pageStyles.tag}>
+                <div key={index}
+                  className={pageStyles.tag}>
                   {tech}
                 </div>
               ))}
@@ -54,12 +57,10 @@ function AboutMe() {
           </div>
           <div className="w-1/3 hover:scale-105 transition duration-300 ease-in-out">
             <Image
-              className=" border-2 border-blue-500 rounded-lg shadow-lg mb-5"
-              src={'/images/professional-picture.jpeg'}
+              className="object-contain border-2 border-blue-500 rounded-lg shadow-lg mb-5"
+              src={profesionalPicture}
               alt="Professional"
               title="Yash Tibrewal"
-              layout="fill" // Fills the parent container
-              objectFit="contain" // Ensures it doesn't stretch
             />
           </div>
         </div>

@@ -1,0 +1,27 @@
+@tailwind utilities;
+
+
+.tag_container {
+    @apply flex flex-wrap justify-start gap-y-2 gap-x-2;
+}
+
+
+.base_tag {
+    @apply text-cyan-500 text-xs md:text-sm lg:text-base xl:text-lg tracking-wide font-semibold;
+}
+
+.tag {
+    @apply base_tag w-fit px-2 rounded-lg border-2 border-cyan-500;
+}
+
+.card {
+    @apply p-4 md:p-6 bg-blue-900 rounded-lg shadow-md text-black transition transform hover:scale-105 border-white border-l-4;
+}
+
+.card p {
+    @apply  italic; /* Add some styling to the text */
+}
+
+.card:hover {
+    @apply bg-blue-800; /* Slight background change on hover */
+}

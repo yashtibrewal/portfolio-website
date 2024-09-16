@@ -41,7 +41,8 @@ function Services() {
               <div className={`${pageStyles.sub_section_heading} ${pageStyles.sub_section_spacing}`}>
                 <ul className=" flex-col space-y-5">
                   {services.map((service, index) => {
-                    return <li key={index} className="flex items-center gap-x-5 font-semibold">
+                    return <li key={index}
+                      className="flex items-center gap-x-5 font-semibold">
                       <FadeInSection>
                         <CheckMark />
                       </FadeInSection>
@@ -160,25 +161,25 @@ function Services() {
             </div>
             <div className={`    ${pageStyles.sub_section_spacing}`}>
               <div className={styles.card}>
-                <p className={pageStyles.description}>"Yash exhibited effective communication skills, ensuring the timely completion of project requirements."
+                <p className={pageStyles.description}>&quot;Yash exhibited effective communication skills, ensuring the timely completion of project requirements.&quot;
                   <span className="flex w-full justify-end font-semibold text-cyan-200">- Full Stack Developer (Stylabs)</span>
                 </p>
               </div>
               <div className={styles.card}>
-                <p className={pageStyles.description}>"He displayed attentiveness and a feedback-oriented approach, grasping the concepts from users' viewpoint."
+                <p className={pageStyles.description}>&quot;He displayed attentiveness and a feedback-oriented approach, grasping the concepts from users&apos; viewpoint.&quot;
                   <span className="flex w-full justify-end font-semibold text-cyan-200">- UI/UX Professor (NMIMS)</span>
 
                 </p>
               </div>
               <div className={styles.card}>
                 <p className={pageStyles.description}>
-                  "He worked on REST APIs on Loopback. He was able to complete his takes in a timely manner. He suggested guard conditions which would make the REST APIs more robust with respect to edge cases."
+                  &quot;He worked on REST APIs on Loopback. He was able to complete his takes in a timely manner. He suggested guard conditions which would make the REST APIs more robust with respect to edge cases.&quot;
                   <span className="flex w-full justify-end font-semibold text-cyan-200">- Lead Engineer (Stylabs)</span>
                 </p>
               </div>
               <div className={styles.card}>
                 <p className={pageStyles.description}>
-                  "He had impressed me with this skills in Java and Android."
+                  &quot;He had impressed me with this skills in Java and Android.&quot;
                   <span className="flex w-full justify-end font-semibold text-cyan-200">- Tech Lead (IIFL)</span>
                 </p>
               </div>

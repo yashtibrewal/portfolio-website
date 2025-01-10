@@ -17,12 +17,12 @@ export const certificateData: TabInfo[] = [
         displayName: "Almabetter",
         certificates: [
             { title: "Full Stack Web Development", file: "almabetter/almabetter-full-stack-web-development.png" },
-            { title: "Backend Development", file: "almabetter/alambetter-backend-development.png" },
+            { title: "Module Four: Backend Development", file: "almabetter/alambetter-backend-development.png" },
             { title: "Backend Capstone", file: "almabetter/almabetter-backend-capstone.png" },
+            { title: "Module Three: Frontend Development", file: "almabetter/almabetter-frontend-development.png" },
             { title: "Design and Analysis of Algorithms", file: "almabetter/almabetter-design-and-analysis-of-algorithms.png" },
-            { title: "Introduction to Programming", file: "almabetter/almabetter-introduction-to-programming.png" },
-            { title: "Module One Coding Challenges", file: "almabetter/almabetter-module-one-coding-challenges.png" },
-            { title: "Module Two Coding Challenges", file: "almabetter/almabetter-module-two-coding-challenges.png" }
+            { title: "Module One: Coding Challenges", file: "almabetter/almabetter-module-one-coding-challenges.png" },
+            { title: "Module Two: Coding Challenges", file: "almabetter/almabetter-module-two-coding-challenges.png" }
         ]
     },
     {

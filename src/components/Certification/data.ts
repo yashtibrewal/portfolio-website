@@ -16,6 +16,7 @@ export const certificateData: TabInfo[] = [
         name: "almabetter",
         displayName: "Almabetter",
         certificates: [
+            { title: "Full Stack Web Development", file: "almabetter/almabetter-full-stack-web-development.png" },
             { title: "Backend Development", file: "almabetter/alambetter-backend-development.png" },
             { title: "Backend Capstone", file: "almabetter/almabetter-backend-capstone.png" },
             { title: "Design and Analysis of Algorithms", file: "almabetter/almabetter-design-and-analysis-of-algorithms.png" },

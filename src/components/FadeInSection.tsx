@@ -7,6 +7,7 @@ interface FadeInSectionProps {
 const FadeInSection: React.FC<FadeInSectionProps> = ({ children }) => {
   const [isVisible, setIsVisible] = useState(false);
   const domRef = useRef<HTMLDivElement>(null);
+  const temp = domRef.current;
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -18,16 +19,16 @@ const FadeInSection: React.FC<FadeInSectionProps> = ({ children }) => {
       });
     });
 
-    if (domRef.current) {
-      observer.observe(domRef.current);
+    if (temp) {
+      observer.observe(temp);
     }
 
     return () => {
-      if (domRef.current) {
-        observer.unobserve(domRef.current);
+      if (temp) {
+        observer.unobserve(temp);
       }
     };
-  }, []);
+  }, [temp]);
 
   return (
     <div
